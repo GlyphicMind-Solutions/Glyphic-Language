@@ -1,0 +1,99 @@
+{"input": "👤✍️📄🌙", "output": {
+  "actor": {"id": "glyph.actor.person"},
+  "action": {"id": "glyph.action.write"},
+  "object": {"id": "glyph.object.document.page"},
+  "modifiers": [],
+  "context": {
+    "place": [],
+    "time": [{"id": "context.time.night"}],
+    "emotion": [],
+    "sensory": [],
+    "social": []
+  }
+}}
+{"input": "📄✨", "output": {
+  "actor": null,
+  "action": null,
+  "object": {"id": "glyph.object.document.page"},
+  "modifiers": [{"id": "glyph.modifier.intensity.glow"}],
+  "context": {"place": [], "time": [], "emotion": [], "sensory": [], "social": []}
+}}
+{"input": "🏞️🌙😌", "output": {
+  "actor": null,
+  "action": null,
+  "object": null,
+  "modifiers": [],
+  "context": {
+    "place": [{"id": "context.place.nature.landscape"}],
+    "time": [{"id": "context.time.night"}],
+    "emotion": [{"id": "context.emotion.calm"}],
+    "sensory": [],
+    "social": []
+  }
+}}
+{"input": "🌬️🧑‍🤝‍🧑", "output": {
+  "actor": null,
+  "action": null,
+  "object": null,
+  "modifiers": [],
+  "context": {
+    "place": [],
+    "time": [],
+    "emotion": [],
+    "sensory": [{"id": "context.sensory.wind"}],
+    "social": [{"id": "context.social.group"}]
+  }
+}}
+{"input": "👤✨😌", "output": {
+  "actor": {"id": "glyph.actor.person"},
+  "action": null,
+  "object": null,
+  "modifiers": [{"id": "glyph.modifier.intensity.glow"}],
+  "context": {
+    "place": [],
+    "time": [],
+    "emotion": [{"id": "context.emotion.calm"}],
+    "sensory": [],
+    "social": []
+  }
+}}
+{"input": "✍️📄🏞️🌅", "output": {
+  "actor": null,
+  "action": {"id": "glyph.action.write"},
+  "object": {"id": "glyph.object.document.page"},
+  "modifiers": [],
+  "context": {
+    "place": [{"id": "context.place.nature.landscape"}],
+    "time": [{"id": "context.time.sunrise"}],
+    "emotion": [],
+    "sensory": [],
+    "social": []
+  }
+}}
+{"input": "🌙😌🌬️", "output": {
+  "actor": null,
+  "action": null,
+  "object": null,
+  "modifiers": [],
+  "context": {
+    "place": [],
+    "time": [{"id": "context.time.night"}],
+    "emotion": [{"id": "context.emotion.calm"}],
+    "sensory": [{"id": "context.sensory.wind"}],
+    "social": []
+  }
+}}
+{"input": "👤🤝🧑‍🤝‍🧑", "output": {
+  "actor": {"id": "glyph.actor.person"},
+  "action": {"id": "glyph.action.share"},
+  "object": null,
+  "modifiers": [],
+  "context": {
+    "place": [],
+    "time": [],
+    "emotion": [],
+    "sensory": [],
+    "social": [{"id": "context.social.group"}]
+  }
+}}
+

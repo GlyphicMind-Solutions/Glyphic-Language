@@ -1,0 +1,1606 @@
+[
+  {
+    "glyph": "📦",
+    "id": "glyph.object.container.box",
+    "category": "object",
+    "primary": "box",
+    "synomic": [
+      "container",
+      "package",
+      "parcel",
+      "storage"
+    ],
+    "roles": ["object"],
+    "animation": "box_idle",
+    "examples": [
+      { "glyphs": "📦➡️🏠", "text": "A package arriving at home." }
+    ]
+  },
+  {
+    "glyph": "📕",
+    "id": "glyph.object.media.book.closed",
+    "category": "object",
+    "primary": "closed book",
+    "synomic": [
+      "book",
+      "story",
+      "knowledge",
+      "reading material"
+    ],
+    "roles": ["object"],
+    "animation": "book_closed",
+    "examples": [
+      { "glyphs": "📕📚", "text": "A book among others." }
+    ]
+  },
+  {
+    "glyph": "📖",
+    "id": "glyph.object.media.book.open",
+    "category": "object",
+    "primary": "open book",
+    "synomic": [
+      "reading",
+      "study",
+      "knowledge",
+      "story"
+    ],
+    "roles": ["object"],
+    "animation": "book_open",
+    "examples": [
+      { "glyphs": "📖🕯️", "text": "Reading by candlelight." }
+    ]
+  },
+  {
+    "glyph": "📱",
+    "id": "glyph.object.device.phone",
+    "category": "object",
+    "primary": "phone",
+    "synomic": [
+      "mobile device",
+      "smartphone",
+      "communication tool"
+    ],
+    "roles": ["object"],
+    "animation": "phone_tap",
+    "examples": [
+      { "glyphs": "📱💬", "text": "Messaging on the phone." }
+    ]
+  },
+  {
+    "glyph": "💻",
+    "id": "glyph.object.device.laptop",
+    "category": "object",
+    "primary": "laptop",
+    "synomic": [
+      "computer",
+      "digital device",
+      "work tool"
+    ],
+    "roles": ["object"],
+    "animation": "laptop_open",
+    "examples": [
+      { "glyphs": "💻⌨️", "text": "Typing on a laptop." }
+    ]
+  },
+  {
+    "glyph": "⌚",
+    "id": "glyph.object.device.watch",
+    "category": "object",
+    "primary": "watch",
+    "synomic": [
+      "timepiece",
+      "clock",
+      "wearable device"
+    ],
+    "roles": ["object"],
+    "animation": "watch_tick",
+    "examples": [
+      { "glyphs": "⌚⏱️", "text": "Checking the time." }
+    ]
+  },
+  {
+    "glyph": "🔑",
+    "id": "glyph.object.tool.key",
+    "category": "object",
+    "primary": "key",
+    "synomic": [
+      "unlock",
+      "access",
+      "security",
+      "entry"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "key_turn",
+    "examples": [
+      { "glyphs": "🔑🚪", "text": "Unlocking a door." }
+    ]
+  },
+  {
+    "glyph": "🪑",
+    "id": "glyph.object.furniture.chair",
+    "category": "object",
+    "primary": "chair",
+    "synomic": [
+      "seat",
+      "furniture",
+      "place to sit"
+    ],
+    "roles": ["object"],
+    "animation": "chair_idle",
+    "examples": [
+      { "glyphs": "🪑🧘", "text": "Sitting calmly." }
+    ]
+  },
+  {
+    "glyph": "🛏️",
+    "id": "glyph.object.furniture.bed",
+    "category": "object",
+    "primary": "bed",
+    "synomic": [
+      "sleep",
+      "rest",
+      "furniture",
+      "comfort"
+    ],
+    "roles": ["object"],
+    "animation": "bed_idle",
+    "examples": [
+      { "glyphs": "🛏️😴", "text": "Sleeping in bed." }
+    ]
+  },
+  {
+    "glyph": "🍎",
+    "id": "glyph.object.food.apple",
+    "category": "object",
+    "primary": "apple",
+    "synomic": [
+      "fruit",
+      "food",
+      "snack",
+      "healthy"
+    ],
+    "roles": ["object"],
+    "animation": "fruit_idle",
+    "examples": [
+      { "glyphs": "🍎🧺", "text": "An apple in a basket." }
+    ]
+  },
+  {
+    "glyph": "🍞",
+    "id": "glyph.object.food.bread",
+    "category": "object",
+    "primary": "bread",
+    "synomic": [
+      "food",
+      "loaf",
+      "meal",
+      "basic nourishment"
+    ],
+    "roles": ["object"],
+    "animation": "bread_idle",
+    "examples": [
+      { "glyphs": "🍞🍽️", "text": "Bread for a meal." }
+    ]
+  },
+  {
+    "glyph": "🧊",
+    "id": "glyph.object.material.ice",
+    "category": "object",
+    "primary": "ice",
+    "synomic": [
+      "cold",
+      "frozen water",
+      "chill",
+      "cooling"
+    ],
+    "roles": ["object", "modifier"],
+    "animation": "ice_glow",
+    "examples": [
+      { "glyphs": "🧊🥤", "text": "Ice in a drink." }
+    ]
+  },
+  {
+    "glyph": "🪨",
+    "id": "glyph.object.material.rock",
+    "category": "object",
+    "primary": "rock",
+    "synomic": [
+      "stone",
+      "solid material",
+      "foundation",
+      "weight"
+    ],
+    "roles": ["object"],
+    "animation": "rock_idle",
+    "examples": [
+      { "glyphs": "🪨🌱", "text": "A rock near a sprout." }
+    ]
+  },
+  {
+    "glyph": "🪵",
+    "id": "glyph.object.material.wood",
+    "category": "object",
+    "primary": "wood",
+    "synomic": [
+      "timber",
+      "material",
+      "fuel",
+      "construction"
+    ],
+    "roles": ["object"],
+    "animation": "wood_idle",
+    "examples": [
+      { "glyphs": "🪵🔥", "text": "Wood for a fire." }
+    ]
+  },
+  {
+    "glyph": "🔨",
+    "id": "glyph.object.tool.hammer",
+    "category": "object",
+    "primary": "hammer",
+    "synomic": [
+      "tool",
+      "construction",
+      "nail driver",
+      "building"
+    ],
+    "roles": ["object"],
+    "animation": "hammer_idle",
+    "examples": [
+      { "glyphs": "🔨🪵", "text": "Hammering wood." }
+    ]
+  },
+  {
+    "glyph": "🔧",
+    "id": "glyph.object.tool.wrench",
+    "category": "object",
+    "primary": "wrench",
+    "synomic": [
+      "tool",
+      "tighten",
+      "loosen",
+      "mechanical work"
+    ],
+    "roles": ["object"],
+    "animation": "wrench_idle",
+    "examples": [
+      { "glyphs": "🔧🚗", "text": "Using a wrench on a car." }
+    ]
+  },
+  {
+    "glyph": "🪚",
+    "id": "glyph.object.tool.saw",
+    "category": "object",
+    "primary": "saw",
+    "synomic": [
+      "cut wood",
+      "tool",
+      "carpentry",
+      "construction"
+    ],
+    "roles": ["object"],
+    "animation": "saw_idle",
+    "examples": [
+      { "glyphs": "🪚🪵", "text": "Sawing wood." }
+    ]
+  },
+  {
+    "glyph": "🪛",
+    "id": "glyph.object.tool.screwdriver",
+    "category": "object",
+    "primary": "screwdriver",
+    "synomic": [
+      "tool",
+      "tighten",
+      "loosen",
+      "mechanical"
+    ],
+    "roles": ["object"],
+    "animation": "screw_idle",
+    "examples": [
+      { "glyphs": "🪛🔩", "text": "Tightening a bolt." }
+    ]
+  },
+  {
+    "glyph": "🔪",
+    "id": "glyph.object.tool.knife",
+    "category": "object",
+    "primary": "knife",
+    "synomic": [
+      "cutting tool",
+      "kitchen knife",
+      "sharp object"
+    ],
+    "roles": ["object"],
+    "animation": "knife_idle",
+    "examples": [
+      { "glyphs": "🔪🥕", "text": "Cutting vegetables." }
+    ]
+  },
+  {
+    "glyph": "🍴",
+    "id": "glyph.object.utensil.cutlery",
+    "category": "object",
+    "primary": "fork and knife",
+    "synomic": [
+      "eating utensils",
+      "meal tools",
+      "dining"
+    ],
+    "roles": ["object"],
+    "animation": "cutlery_idle",
+    "examples": [
+      { "glyphs": "🍴🍽️", "text": "Preparing to eat." }
+    ]
+  },
+  {
+    "glyph": "🥄",
+    "id": "glyph.object.utensil.spoon",
+    "category": "object",
+    "primary": "spoon",
+    "synomic": [
+      "utensil",
+      "scoop",
+      "stir",
+      "eat"
+    ],
+    "roles": ["object"],
+    "animation": "spoon_idle",
+    "examples": [
+      { "glyphs": "🥄🍲", "text": "Eating soup." }
+    ]
+  },
+  {
+    "glyph": "🧹",
+    "id": "glyph.object.household.broom",
+    "category": "object",
+    "primary": "broom",
+    "synomic": [
+      "cleaning tool",
+      "sweep",
+      "household item"
+    ],
+    "roles": ["object"],
+    "animation": "broom_idle",
+    "examples": [
+      { "glyphs": "🧹🗑️", "text": "Sweeping debris." }
+    ]
+  },
+  {
+    "glyph": "🧽",
+    "id": "glyph.object.household.sponge",
+    "category": "object",
+    "primary": "sponge",
+    "synomic": [
+      "cleaning",
+      "absorb",
+      "wipe",
+      "household tool"
+    ],
+    "roles": ["object"],
+    "animation": "sponge_idle",
+    "examples": [
+      { "glyphs": "🧽🧼", "text": "Cleaning with soap." }
+    ]
+  },
+  {
+    "glyph": "🪣",
+    "id": "glyph.object.household.bucket",
+    "category": "object",
+    "primary": "bucket",
+    "synomic": [
+      "container",
+      "carry water",
+      "hold materials"
+    ],
+    "roles": ["object"],
+    "animation": "bucket_idle",
+    "examples": [
+      { "glyphs": "🪣💧", "text": "A bucket of water." }
+    ]
+  },
+  {
+    "glyph": "🕯️",
+    "id": "glyph.object.symbolic.candle",
+    "category": "object",
+    "primary": "candle",
+    "synomic": [
+      "light",
+      "ritual",
+      "memory",
+      "ceremony"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "candle_flicker",
+    "examples": [
+      { "glyphs": "🕯️🌙", "text": "A candle lit at night." }
+    ]
+  },
+  {
+    "glyph": "🔮",
+    "id": "glyph.object.symbolic.crystal_ball",
+    "category": "object",
+    "primary": "crystal ball",
+    "synomic": [
+      "mysticism",
+      "divination",
+      "future sight",
+      "magic"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "crystal_glow",
+    "examples": [
+      { "glyphs": "🔮✨", "text": "A magical vision." }
+    ]
+  },
+  {
+    "glyph": "💾",
+    "id": "glyph.object.digital.disk",
+    "category": "object",
+    "primary": "save disk",
+    "synomic": [
+      "data storage",
+      "memory",
+      "file",
+      "digital archive"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "disk_idle",
+    "examples": [
+      { "glyphs": "💾📁", "text": "Saving a file." }
+    ]
+  },
+  {
+    "glyph": "🗂️",
+    "id": "glyph.object.digital.folders",
+    "category": "object",
+    "primary": "folders",
+    "synomic": [
+      "organization",
+      "files",
+      "sorting",
+      "digital storage"
+    ],
+    "roles": ["object"],
+    "animation": "folder_idle",
+    "examples": [
+      { "glyphs": "🗂️💻", "text": "Organizing files on a computer." }
+    ]
+  },
+  {
+    "glyph": "🧴",
+    "id": "glyph.object.container.bottle",
+    "category": "object",
+    "primary": "bottle",
+    "synomic": [
+      "container",
+      "liquid storage",
+      "cosmetic bottle",
+      "cleaning bottle"
+    ],
+    "roles": ["object"],
+    "animation": "bottle_idle",
+    "examples": [
+      { "glyphs": "🧴🫧", "text": "A bottle of soap." }
+    ]
+  },
+  {
+    "glyph": "🫙",
+    "id": "glyph.object.container.jar",
+    "category": "object",
+    "primary": "jar",
+    "synomic": [
+      "container",
+      "glass jar",
+      "storage",
+      "preserve"
+    ],
+    "roles": ["object"],
+    "animation": "jar_idle",
+    "examples": [
+      { "glyphs": "🫙🍯", "text": "A jar of honey." }
+    ]
+  },
+  {
+    "glyph": "⚔️",
+    "id": "glyph.object.weapon.swords",
+    "category": "object",
+    "primary": "crossed swords",
+    "synomic": [
+      "combat",
+      "battle",
+      "weapon",
+      "duel"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "sword_clash",
+    "examples": [
+      { "glyphs": "⚔️🛡️", "text": "Weapons and defense." }
+    ]
+  },
+  {
+    "glyph": "🗡️",
+    "id": "glyph.object.weapon.dagger",
+    "category": "object",
+    "primary": "dagger",
+    "synomic": [
+      "knife",
+      "blade",
+      "weapon",
+      "stealth tool"
+    ],
+    "roles": ["object"],
+    "animation": "blade_idle",
+    "examples": [
+      { "glyphs": "🗡️🧥", "text": "A dagger concealed in clothing." }
+    ]
+  },
+  {
+    "glyph": "🏹",
+    "id": "glyph.object.weapon.bow",
+    "category": "object",
+    "primary": "bow and arrow",
+    "synomic": [
+      "archery",
+      "ranged weapon",
+      "hunt",
+      "aim"
+    ],
+    "roles": ["object"],
+    "animation": "bow_draw",
+    "examples": [
+      { "glyphs": "🏹🎯", "text": "Aiming at a target." }
+    ]
+  },
+  {
+    "glyph": "🚗",
+    "id": "glyph.object.vehicle.car",
+    "category": "object",
+    "primary": "car",
+    "synomic": [
+      "vehicle",
+      "transportation",
+      "drive",
+      "automobile"
+    ],
+    "roles": ["object"],
+    "animation": "car_idle",
+    "examples": [
+      { "glyphs": "🚗➡️🏙️", "text": "Driving to the city." }
+    ]
+  },
+  {
+    "glyph": "🚙",
+    "id": "glyph.object.vehicle.suv",
+    "category": "object",
+    "primary": "SUV",
+    "synomic": [
+      "vehicle",
+      "car",
+      "transport",
+      "off‑road"
+    ],
+    "roles": ["object"],
+    "animation": "car_idle",
+    "examples": [
+      { "glyphs": "🚙🌄", "text": "Driving through hills." }
+    ]
+  },
+  {
+    "glyph": "🏍️",
+    "id": "glyph.object.vehicle.motorcycle",
+    "category": "object",
+    "primary": "motorcycle",
+    "synomic": [
+      "bike",
+      "motorbike",
+      "fast vehicle",
+      "ride"
+    ],
+    "roles": ["object"],
+    "animation": "motorcycle_rev",
+    "examples": [
+      { "glyphs": "🏍️💨", "text": "Riding fast." }
+    ]
+  },
+  {
+    "glyph": "🚲",
+    "id": "glyph.object.vehicle.bicycle",
+    "category": "object",
+    "primary": "bicycle",
+    "synomic": [
+      "bike",
+      "pedal",
+      "transport",
+      "ride"
+    ],
+    "roles": ["object"],
+    "animation": "bike_idle",
+    "examples": [
+      { "glyphs": "🚲🌳", "text": "Riding through nature." }
+    ]
+  },
+  {
+    "glyph": "🚚",
+    "id": "glyph.object.vehicle.truck",
+    "category": "object",
+    "primary": "truck",
+    "synomic": [
+      "transport",
+      "delivery",
+      "cargo",
+      "hauling"
+    ],
+    "roles": ["object"],
+    "animation": "truck_idle",
+    "examples": [
+      { "glyphs": "🚚📦", "text": "Delivering packages." }
+    ]
+  },
+  {
+    "glyph": "✈️",
+    "id": "glyph.object.vehicle.airplane",
+    "category": "object",
+    "primary": "airplane",
+    "synomic": [
+      "flight",
+      "travel",
+      "air transport",
+      "journey"
+    ],
+    "roles": ["object"],
+    "animation": "plane_fly",
+    "examples": [
+      { "glyphs": "✈️🌍", "text": "Flying across the world." }
+    ]
+  },
+  {
+    "glyph": "🚀",
+    "id": "glyph.object.vehicle.rocket",
+    "category": "object",
+    "primary": "rocket",
+    "synomic": [
+      "spacecraft",
+      "launch",
+      "space travel",
+      "exploration"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "rocket_launch",
+    "examples": [
+      { "glyphs": "🚀🌌", "text": "Launching into space." }
+    ]
+  },
+  {
+    "glyph": "🎸",
+    "id": "glyph.object.instrument.guitar",
+    "category": "object",
+    "primary": "guitar",
+    "synomic": [
+      "instrument",
+      "music",
+      "string instrument",
+      "play"
+    ],
+    "roles": ["object"],
+    "animation": "guitar_strum",
+    "examples": [
+      { "glyphs": "🎸🎶", "text": "Playing guitar." }
+    ]
+  },
+  {
+    "glyph": "🥁",
+    "id": "glyph.object.instrument.drum",
+    "category": "object",
+    "primary": "drum",
+    "synomic": [
+      "instrument",
+      "rhythm",
+      "beat",
+      "percussion"
+    ],
+    "roles": ["object"],
+    "animation": "drum_hit",
+    "examples": [
+      { "glyphs": "🥁🔥", "text": "Energetic drumming." }
+    ]
+  },
+  {
+    "glyph": "🎹",
+    "id": "glyph.object.instrument.piano",
+    "category": "object",
+    "primary": "piano",
+    "synomic": [
+      "keyboard",
+      "instrument",
+      "music",
+      "melody"
+    ],
+    "roles": ["object"],
+    "animation": "piano_play",
+    "examples": [
+      { "glyphs": "🎹🎼", "text": "Playing piano music." }
+    ]
+  },
+  {
+    "glyph": "🖨️",
+    "id": "glyph.object.machine.printer",
+    "category": "object",
+    "primary": "printer",
+    "synomic": [
+      "machine",
+      "print",
+      "office device",
+      "document output"
+    ],
+    "roles": ["object"],
+    "animation": "printer_run",
+    "examples": [
+      { "glyphs": "🖨️📄", "text": "Printing a document." }
+    ]
+  },
+  {
+    "glyph": "🧯",
+    "id": "glyph.object.tool.extinguisher",
+    "category": "object",
+    "primary": "fire extinguisher",
+    "synomic": [
+      "safety tool",
+      "fire control",
+      "emergency equipment"
+    ],
+    "roles": ["object"],
+    "animation": "extinguisher_spray",
+    "examples": [
+      { "glyphs": "🧯🔥", "text": "Putting out a fire." }
+    ]
+  },
+  {
+    "glyph": "🧰",
+    "id": "glyph.object.tool.toolbox",
+    "category": "object",
+    "primary": "toolbox",
+    "synomic": [
+      "tools",
+      "repair kit",
+      "mechanic set",
+      "equipment"
+    ],
+    "roles": ["object"],
+    "animation": "toolbox_open",
+    "examples": [
+      { "glyphs": "🧰🛠️", "text": "Opening the toolbox." }
+    ]
+  },
+  {
+    "glyph": "🌳",
+    "id": "glyph.object.nature.tree",
+    "category": "object",
+    "primary": "tree",
+    "synomic": [
+      "forest",
+      "nature",
+      "growth",
+      "wood source"
+    ],
+    "roles": ["object"],
+    "animation": "tree_idle",
+    "examples": [
+      { "glyphs": "🌳🌲", "text": "Trees in a forest." }
+    ]
+  },
+  {
+    "glyph": "🌲",
+    "id": "glyph.object.nature.tree.conifer",
+    "category": "object",
+    "primary": "pine tree",
+    "synomic": [
+      "evergreen",
+      "forest",
+      "mountain tree"
+    ],
+    "roles": ["object"],
+    "animation": "tree_idle",
+    "examples": [
+      { "glyphs": "🌲🏔️", "text": "Pines near mountains." }
+    ]
+  },
+  {
+    "glyph": "🌱",
+    "id": "glyph.object.nature.sprout",
+    "category": "object",
+    "primary": "sprout",
+    "synomic": [
+      "growth",
+      "seedling",
+      "new life",
+      "beginning"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "sprout_grow",
+    "examples": [
+      { "glyphs": "🌱✨", "text": "A new beginning." }
+    ]
+  },
+  {
+    "glyph": "🌿",
+    "id": "glyph.object.nature.herb",
+    "category": "object",
+    "primary": "leafy herb",
+    "synomic": [
+      "plant",
+      "greenery",
+      "nature",
+      "healing"
+    ],
+    "roles": ["object"],
+    "animation": "leaf_rustle",
+    "examples": [
+      { "glyphs": "🌿🍃", "text": "Leaves blowing in the wind." }
+    ]
+  },
+  {
+    "glyph": "🍃",
+    "id": "glyph.object.nature.leaf",
+    "category": "object",
+    "primary": "leaf",
+    "synomic": [
+      "nature",
+      "wind",
+      "falling leaf",
+      "movement"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "leaf_fall",
+    "examples": [
+      { "glyphs": "🍃💨", "text": "A leaf carried by wind." }
+    ]
+  },
+  {
+    "glyph": "🌾",
+    "id": "glyph.object.nature.grass",
+    "category": "object",
+    "primary": "grass",
+    "synomic": [
+      "field",
+      "nature",
+      "plants",
+      "growth"
+    ],
+    "roles": ["object"],
+    "animation": "grass_wave",
+    "examples": [
+      { "glyphs": "🌾🌤️", "text": "Grass in sunlight." }
+    ]
+  },
+  {
+    "glyph": "🌻",
+    "id": "glyph.object.nature.flower.sunflower",
+    "category": "object",
+    "primary": "sunflower",
+    "synomic": [
+      "flower",
+      "sun",
+      "growth",
+      "brightness"
+    ],
+    "roles": ["object"],
+    "animation": "flower_idle",
+    "examples": [
+      { "glyphs": "🌻☀️", "text": "A sunflower facing the sun." }
+    ]
+  },
+  {
+    "glyph": "🌺",
+    "id": "glyph.object.nature.flower.hibiscus",
+    "category": "object",
+    "primary": "hibiscus",
+    "synomic": [
+      "flower",
+      "beauty",
+      "tropical",
+      "bloom"
+    ],
+    "roles": ["object"],
+    "animation": "flower_idle",
+    "examples": [
+      { "glyphs": "🌺🌴", "text": "A tropical flower." }
+    ]
+  },
+  {
+    "glyph": "🔥",
+    "id": "glyph.object.element.fire",
+    "category": "object",
+    "primary": "fire",
+    "synomic": [
+      "flame",
+      "heat",
+      "energy",
+      "destruction"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "fire_burn",
+    "examples": [
+      { "glyphs": "🔥🪵", "text": "Fire burning wood." }
+    ]
+  },
+  {
+    "glyph": "💧",
+    "id": "glyph.object.element.water",
+    "category": "object",
+    "primary": "water droplet",
+    "synomic": [
+      "liquid",
+      "hydration",
+      "flow",
+      "emotion"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "water_drop",
+    "examples": [
+      { "glyphs": "💧🌧️", "text": "A drop of rain." }
+    ]
+  },
+  {
+    "glyph": "🌊",
+    "id": "glyph.object.element.wave",
+    "category": "object",
+    "primary": "wave",
+    "synomic": [
+      "ocean",
+      "water",
+      "movement",
+      "flow"
+    ],
+    "roles": ["object"],
+    "animation": "wave_motion",
+    "examples": [
+      { "glyphs": "🌊🌅", "text": "Waves at sunrise." }
+    ]
+  },
+  {
+    "glyph": "🌬️",
+    "id": "glyph.object.element.wind",
+    "category": "object",
+    "primary": "wind",
+    "synomic": [
+      "air",
+      "breeze",
+      "movement",
+      "breath"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "wind_blow",
+    "examples": [
+      { "glyphs": "🌬️🍃", "text": "Wind blowing leaves." }
+    ]
+  },
+  {
+    "glyph": "🌩️",
+    "id": "glyph.object.weather.storm",
+    "category": "object",
+    "primary": "lightning storm",
+    "synomic": [
+      "thunderstorm",
+      "power",
+      "danger",
+      "intensity"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "storm_flash",
+    "examples": [
+      { "glyphs": "🌩️⚡", "text": "A powerful storm." }
+    ]
+  },
+  {
+    "glyph": "❄️",
+    "id": "glyph.object.weather.snowflake",
+    "category": "object",
+    "primary": "snowflake",
+    "synomic": [
+      "cold",
+      "winter",
+      "ice crystal",
+      "uniqueness"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "snow_fall",
+    "examples": [
+      { "glyphs": "❄️🌨️", "text": "Snow falling." }
+    ]
+  },
+  {
+    "glyph": "🌙",
+    "id": "glyph.object.cosmic.moon",
+    "category": "object",
+    "primary": "moon",
+    "synomic": [
+      "night",
+      "cycle",
+      "intuition",
+      "calm"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "moon_glow",
+    "examples": [
+      { "glyphs": "🌙✨", "text": "A glowing moon." }
+    ]
+  },
+  {
+    "glyph": "⭐",
+    "id": "glyph.object.cosmic.star",
+    "category": "object",
+    "primary": "star",
+    "synomic": [
+      "light",
+      "guidance",
+      "cosmos",
+      "hope"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "star_twinkle",
+    "examples": [
+      { "glyphs": "⭐🌌", "text": "A star in the night sky." }
+    ]
+  },
+  {
+    "glyph": "🌍",
+    "id": "glyph.object.cosmic.earth",
+    "category": "object",
+    "primary": "Earth",
+    "synomic": [
+      "planet",
+      "world",
+      "home",
+      "global"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "earth_spin",
+    "examples": [
+      { "glyphs": "🌍✨", "text": "The Earth shining in space." }
+    ]
+  },
+  {
+    "glyph": "🍔",
+    "id": "glyph.object.food.burger",
+    "category": "object",
+    "primary": "burger",
+    "synomic": [
+      "food",
+      "meal",
+      "fast food",
+      "sandwich"
+    ],
+    "roles": ["object"],
+    "animation": "food_idle",
+    "examples": [
+      { "glyphs": "🍔🍟", "text": "A classic meal combo." }
+    ]
+  },
+  {
+    "glyph": "🍕",
+    "id": "glyph.object.food.pizza",
+    "category": "object",
+    "primary": "pizza",
+    "synomic": [
+      "slice",
+      "meal",
+      "comfort food",
+      "cheese"
+    ],
+    "roles": ["object"],
+    "animation": "food_idle",
+    "examples": [
+      { "glyphs": "🍕🔥", "text": "Hot fresh pizza." }
+    ]
+  },
+  {
+    "glyph": "🍣",
+    "id": "glyph.object.food.sushi",
+    "category": "object",
+    "primary": "sushi",
+    "synomic": [
+      "fish",
+      "rice",
+      "Japanese food",
+      "meal"
+    ],
+    "roles": ["object"],
+    "animation": "food_idle",
+    "examples": [
+      { "glyphs": "🍣🥢", "text": "Eating sushi with chopsticks." }
+    ]
+  },
+  {
+    "glyph": "🍺",
+    "id": "glyph.object.drink.beer",
+    "category": "object",
+    "primary": "beer",
+    "synomic": [
+      "drink",
+      "alcohol",
+      "brew",
+      "refreshment"
+    ],
+    "roles": ["object"],
+    "animation": "drink_idle",
+    "examples": [
+      { "glyphs": "🍺🎉", "text": "Celebrating with a drink." }
+    ]
+  },
+  {
+    "glyph": "☕",
+    "id": "glyph.object.drink.coffee",
+    "category": "object",
+    "primary": "coffee",
+    "synomic": [
+      "drink",
+      "caffeine",
+      "morning",
+      "energy"
+    ],
+    "roles": ["object"],
+    "animation": "steam_rise",
+    "examples": [
+      { "glyphs": "☕🌅", "text": "Morning coffee." }
+    ]
+  },
+  {
+    "glyph": "💰",
+    "id": "glyph.object.money.bag",
+    "category": "object",
+    "primary": "money bag",
+    "synomic": [
+      "wealth",
+      "currency",
+      "value",
+      "economy"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "money_shake",
+    "examples": [
+      { "glyphs": "💰📈", "text": "Money increasing in value." }
+    ]
+  },
+  {
+    "glyph": "💵",
+    "id": "glyph.object.money.cash",
+    "category": "object",
+    "primary": "cash",
+    "synomic": [
+      "money",
+      "currency",
+      "payment",
+      "transaction"
+    ],
+    "roles": ["object"],
+    "animation": "cash_fan",
+    "examples": [
+      { "glyphs": "💵➡️🛒", "text": "Paying for goods." }
+    ]
+  },
+  {
+    "glyph": "💳",
+    "id": "glyph.object.money.card",
+    "category": "object",
+    "primary": "credit card",
+    "synomic": [
+      "payment",
+      "transaction",
+      "finance",
+      "banking"
+    ],
+    "roles": ["object"],
+    "animation": "card_swipe",
+    "examples": [
+      { "glyphs": "💳🛍️", "text": "Buying items with a card." }
+    ]
+  },
+  {
+    "glyph": "🧾",
+    "id": "glyph.object.document.receipt",
+    "category": "object",
+    "primary": "receipt",
+    "synomic": [
+      "proof",
+      "transaction record",
+      "purchase",
+      "document"
+    ],
+    "roles": ["object"],
+    "animation": "paper_unroll",
+    "examples": [
+      { "glyphs": "🧾💵", "text": "Receipt for a purchase." }
+    ]
+  },
+  {
+    "glyph": "📄",
+    "id": "glyph.object.document.page",
+    "category": "object",
+    "primary": "page",
+    "synomic": [
+      "document",
+      "paper",
+      "file",
+      "sheet"
+    ],
+    "roles": ["object"],
+    "animation": "page_flip",
+    "examples": [
+      { "glyphs": "📄✍️", "text": "Writing on a page." }
+    ]
+  },
+  {
+    "glyph": "📜",
+    "id": "glyph.object.document.scroll",
+    "category": "object",
+    "primary": "scroll",
+    "synomic": [
+      "ancient text",
+      "document",
+      "history",
+      "record"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "scroll_unroll",
+    "examples": [
+      { "glyphs": "📜✨", "text": "An ancient scroll of knowledge." }
+    ]
+  },
+  {
+    "glyph": "📁",
+    "id": "glyph.object.digital.folder",
+    "category": "object",
+    "primary": "folder",
+    "synomic": [
+      "directory",
+      "storage",
+      "organization",
+      "file container"
+    ],
+    "roles": ["object"],
+    "animation": "folder_open",
+    "examples": [
+      { "glyphs": "📁💾", "text": "A folder containing saved data." }
+    ]
+  },
+  {
+    "glyph": "📂",
+    "id": "glyph.object.digital.folder.open",
+    "category": "object",
+    "primary": "open folder",
+    "synomic": [
+      "directory",
+      "open storage",
+      "file access"
+    ],
+    "roles": ["object"],
+    "animation": "folder_open",
+    "examples": [
+      { "glyphs": "📂🗂️", "text": "Browsing through files." }
+    ]
+  },
+  {
+    "glyph": "📦📦",
+    "id": "glyph.object.container.stack",
+    "category": "object",
+    "primary": "stacked boxes",
+    "synomic": [
+      "inventory",
+      "storage",
+      "shipment",
+      "supplies"
+    ],
+    "roles": ["object"],
+    "animation": "stack_idle",
+    "examples": [
+      { "glyphs": "📦📦🚚", "text": "Boxes ready for transport." }
+    ]
+  },
+  {
+    "glyph": "🧺",
+    "id": "glyph.object.container.basket",
+    "category": "object",
+    "primary": "basket",
+    "synomic": [
+      "container",
+      "carry",
+      "storage",
+      "woven vessel"
+    ],
+    "roles": ["object"],
+    "animation": "basket_idle",
+    "examples": [
+      { "glyphs": "🧺🍎", "text": "A basket of apples." }
+    ]
+  },
+  {
+    "glyph": "🫙✨",
+    "id": "glyph.object.container.jar.magic",
+    "category": "object",
+    "primary": "magic jar",
+    "synomic": [
+      "enchanted container",
+      "ritual object",
+      "symbolic vessel",
+      "mystic storage"
+    ],
+    "roles": ["object", "symbol"],
+    "animation": "jar_glow",
+       "examples": [
+      { "glyphs": "🫙✨🔮", "text": "A jar holding magical essence." }
+    ]
+  },
+  {
+    "glyph": "👕",
+    "id": "glyph.object.clothing.shirt",
+    "category": "object",
+    "primary": "shirt",
+    "synomic": ["top", "clothing", "casual wear"],
+    "roles": ["object"],
+    "animation": "cloth_idle",
+    "examples": [{ "glyphs": "👕🧺", "text": "A shirt in the laundry." }]
+  },
+  {
+    "glyph": "🧥",
+    "id": "glyph.object.clothing.jacket",
+    "category": "object",
+    "primary": "jacket",
+    "synomic": ["coat", "outerwear", "warm clothing"],
+    "roles": ["object"],
+    "animation": "cloth_idle",
+    "examples": [{ "glyphs": "🧥❄️", "text": "Wearing a jacket in the cold." }]
+  },
+  {
+    "glyph": "👖",
+    "id": "glyph.object.clothing.pants",
+    "category": "object",
+    "primary": "pants",
+    "synomic": ["trousers", "jeans", "clothing"],
+    "roles": ["object"],
+    "animation": "cloth_idle",
+    "examples": [{ "glyphs": "👖🧵", "text": "Pants being repaired." }]
+  },
+  {
+    "glyph": "👟",
+    "id": "glyph.object.clothing.shoes",
+    "category": "object",
+    "primary": "shoes",
+    "synomic": ["footwear", "sneakers", "running shoes"],
+    "roles": ["object"],
+    "animation": "shoe_step",
+    "examples": [{ "glyphs": "👟🏃", "text": "Running in shoes." }]
+  },
+  {
+    "glyph": "🎩",
+    "id": "glyph.object.clothing.hat",
+    "category": "object",
+    "primary": "hat",
+    "synomic": ["headwear", "cap", "fashion"],
+    "roles": ["object"],
+    "animation": "hat_tip",
+    "examples": [{ "glyphs": "🎩✨", "text": "A stylish hat." }]
+  },
+  {
+    "glyph": "🧤",
+    "id": "glyph.object.clothing.gloves",
+    "category": "object",
+    "primary": "gloves",
+    "synomic": ["handwear", "warmth", "protection"],
+    "roles": ["object"],
+    "animation": "glove_idle",
+    "examples": [{ "glyphs": "🧤❄️", "text": "Gloves for winter." }]
+  },
+  {
+    "glyph": "🧣",
+    "id": "glyph.object.clothing.scarf",
+    "category": "object",
+    "primary": "scarf",
+    "synomic": ["warmth", "neckwear", "winter clothing"],
+    "roles": ["object"],
+    "animation": "scarf_wave",
+    "examples": [{ "glyphs": "🧣🌬️", "text": "A scarf blowing in the wind." }]
+  },
+  {
+    "glyph": "💉",
+    "id": "glyph.object.medical.syringe",
+    "category": "object",
+    "primary": "syringe",
+    "synomic": ["injection", "vaccine", "medical tool"],
+    "roles": ["object"],
+    "animation": "syringe_press",
+    "examples": [{ "glyphs": "💉🏥", "text": "A medical injection." }]
+  },
+  {
+    "glyph": "🩹",
+    "id": "glyph.object.medical.bandage",
+    "category": "object",
+    "primary": "bandage",
+    "synomic": ["first aid", "healing", "patch"],
+    "roles": ["object"],
+    "animation": "bandage_apply",
+    "examples": [{ "glyphs": "🩹🤕", "text": "Covering a wound." }]
+  },
+  {
+    "glyph": "🩺",
+    "id": "glyph.object.medical.stethoscope",
+    "category": "object",
+    "primary": "stethoscope",
+    "synomic": ["doctor tool", "medical exam", "health check"],
+    "roles": ["object"],
+    "animation": "stethoscope_listen",
+    "examples": [{ "glyphs": "🩺❤️", "text": "Listening to a heartbeat." }]
+  },
+  {
+    "glyph": "🚑",
+    "id": "glyph.object.medical.ambulance",
+    "category": "object",
+    "primary": "ambulance",
+    "synomic": ["emergency vehicle", "medical transport"],
+    "roles": ["object"],
+    "animation": "ambulance_siren",
+    "examples": [{ "glyphs": "🚑💨", "text": "An ambulance rushing to help." }]
+  },
+  {
+    "glyph": "🧼",
+    "id": "glyph.object.cleaning.soap",
+    "category": "object",
+    "primary": "soap",
+    "synomic": ["cleaning", "hygiene", "wash"],
+    "roles": ["object"],
+    "animation": "soap_bubble",
+    "examples": [{ "glyphs": "🧼🫧", "text": "Washing hands." }]
+  },
+  {
+    "glyph": "🏀",
+    "id": "glyph.object.sport.basketball",
+    "category": "object",
+    "primary": "basketball",
+    "synomic": ["ball", "sport", "game"],
+    "roles": ["object"],
+    "animation": "ball_bounce",
+    "examples": [{ "glyphs": "🏀⛹️", "text": "Playing basketball." }]
+  },
+  {
+    "glyph": "⚽",
+    "id": "glyph.object.sport.soccerball",
+    "category": "object",
+    "primary": "soccer ball",
+    "synomic": ["football", "sport", "game"],
+    "roles": ["object"],
+    "animation": "ball_kick",
+    "examples": [{ "glyphs": "⚽🥅", "text": "Kicking a goal." }]
+  },
+  {
+    "glyph": "🎯",
+    "id": "glyph.object.game.target",
+    "category": "object",
+    "primary": "target",
+    "synomic": ["goal", "aim", "precision"],
+    "roles": ["object", "symbol"],
+    "animation": "target_hit",
+    "examples": [{ "glyphs": "🎯🏹", "text": "Hitting the target." }]
+  },
+  {
+    "glyph": "🎲",
+    "id": "glyph.object.game.dice",
+    "category": "object",
+    "primary": "dice",
+    "synomic": ["chance", "game", "randomness"],
+    "roles": ["object", "symbol"],
+    "animation": "dice_roll",
+    "examples": [{ "glyphs": "🎲✨", "text": "Rolling the dice." }]
+  },
+  {
+    "glyph": "🧩",
+    "id": "glyph.object.game.puzzle",
+    "category": "object",
+    "primary": "puzzle piece",
+    "synomic": ["problem", "solution", "logic"],
+    "roles": ["object", "symbol"],
+    "animation": "puzzle_fit",
+    "examples": [{ "glyphs": "🧩🧠", "text": "Solving a puzzle." }]
+  },
+  {
+    "glyph": "🖥️",
+    "id": "glyph.object.device.desktop",
+    "category": "object",
+    "primary": "desktop computer",
+    "synomic": ["PC", "workstation", "monitor"],
+    "roles": ["object"],
+    "animation": "screen_glow",
+    "examples": [{ "glyphs": "🖥️⌨️", "text": "Working at a computer." }]
+  },
+  {
+    "glyph": "🕹️",
+    "id": "glyph.object.device.joystick",
+    "category": "object",
+    "primary": "joystick",
+    "synomic": ["controller", "gaming", "input device"],
+    "roles": ["object"],
+    "animation": "joystick_move",
+    "examples": [{ "glyphs": "🕹️🎮", "text": "Playing a game." }]
+  },
+  {
+    "glyph": "📡",
+    "id": "glyph.object.tech.satellite_dish",
+    "category": "object",
+    "primary": "satellite dish",
+    "synomic": ["signal", "communication", "broadcast"],
+    "roles": ["object"],
+    "animation": "signal_ping",
+    "examples": [{ "glyphs": "📡📶", "text": "Receiving a signal." }]
+  },
+  {
+    "glyph": "🤖",
+    "id": "glyph.object.tech.robot",
+    "category": "object",
+    "primary": "robot",
+    "synomic": ["machine", "automation", "android"],
+    "roles": ["object"],
+    "animation": "robot_idle",
+    "examples": [{ "glyphs": "🤖⚙️", "text": "A robot operating." }]
+  },
+  {
+    "glyph": "🔋",
+    "id": "glyph.object.tech.battery",
+    "category": "object",
+    "primary": "battery",
+    "synomic": ["power", "energy", "charge"],
+    "roles": ["object"],
+    "animation": "battery_charge",
+    "examples": [{ "glyphs": "🔋⚡", "text": "Charging a battery." }]
+  },
+  {
+    "glyph": "🌞",
+    "id": "glyph.object.cosmic.sun",
+    "category": "object",
+    "primary": "sun",
+    "synomic": ["light", "life", "energy", "day"],
+    "roles": ["object", "symbol"],
+    "animation": "sun_glow",
+    "examples": [{ "glyphs": "🌞🌻", "text": "Sun nourishing life." }]
+  },
+  {
+    "glyph": "🪐",
+    "id": "glyph.object.cosmic.planet.ringed",
+    "category": "object",
+    "primary": "ringed planet",
+    "synomic": ["cosmos", "orbit", "space"],
+    "roles": ["object", "symbol"],
+    "animation": "planet_spin",
+    "examples": [{ "glyphs": "🪐✨", "text": "A ringed planet in space." }]
+  },
+  {
+    "glyph": "☄️",
+    "id": "glyph.object.cosmic.comet",
+    "category": "object",
+    "primary": "comet",
+    "synomic": ["ice", "space", "omen", "trajectory"],
+    "roles": ["object", "symbol"],
+    "animation": "comet_streak",
+    "examples": [{ "glyphs": "☄️🌌", "text": "A comet crossing the sky." }]
+  },
+  {
+    "glyph": "🗝️",
+    "id": "glyph.object.symbolic.key.antique",
+    "category": "object",
+    "primary": "ancient key",
+    "synomic": ["mystery", "unlocking", "ritual", "secret"],
+    "roles": ["object", "symbol"],
+    "animation": "key_glow",
+    "examples": [{ "glyphs": "🗝️📜", "text": "A key to ancient knowledge." }]
+  },
+  {
+    "glyph": "🪬",
+    "id": "glyph.object.symbolic.protection",
+    "category": "object",
+    "primary": "protection charm",
+    "synomic": ["ward", "symbol", "ritual", "defense"],
+    "roles": ["object", "symbol"],
+    "animation": "charm_glow",
+    "examples": [{ "glyphs": "🪬✨", "text": "A charm offering protection." }]
+  }
+]
+
+

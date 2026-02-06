@@ -1,0 +1,649 @@
+[
+  {
+    "id": "context.emotion.atmosphere.calm",
+    "glyph": "🍃😌",
+    "category": "emotion_context",
+    "primary": "calm atmosphere",
+    "synomic": [
+      "peaceful",
+      "soothing",
+      "gentle tone",
+      "emotionally quiet"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "calm_drift",
+    "examples": [
+      { "glyphs": "A🍃😌", "text": "A occurs in a calm, peaceful emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.atmosphere.tense",
+    "glyph": "⚡😬",
+    "category": "emotion_context",
+    "primary": "tense atmosphere",
+    "synomic": [
+      "tight",
+      "high pressure",
+      "uneasy",
+      "emotionally charged"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "tension_vibrate",
+    "examples": [
+      { "glyphs": "A⚡😬", "text": "A occurs in a tense or pressured emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.atmosphere.joyful",
+    "glyph": "✨😊",
+    "category": "emotion_context",
+    "primary": "joyful atmosphere",
+    "synomic": [
+      "uplifting",
+      "positive tone",
+      "lighthearted",
+      "emotionally bright"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "joy_spark",
+    "examples": [
+      { "glyphs": "A✨😊", "text": "A occurs in a joyful, uplifting environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.atmosphere.somber",
+    "glyph": "🌫️😔",
+    "category": "emotion_context",
+    "primary": "somber atmosphere",
+    "synomic": [
+      "heavy",
+      "melancholic",
+      "quiet sadness",
+      "emotionally muted"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "somber_fade",
+    "examples": [
+      { "glyphs": "A🌫️😔", "text": "A occurs in a somber or melancholic environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.atmosphere.ominous",
+    "glyph": "🌑⚠️",
+    "category": "emotion_context",
+    "primary": "ominous atmosphere",
+    "synomic": [
+      "foreboding",
+      "threatening tone",
+      "dark mood",
+      "emotional danger"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "ominous_shadow",
+    "examples": [
+      { "glyphs": "A🌑⚠️", "text": "A occurs in an ominous or threatening emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.atmosphere.neutral",
+    "glyph": "⚪😐",
+    "category": "emotion_context",
+    "primary": "neutral atmosphere",
+    "synomic": [
+      "emotionally flat",
+      "unbiased tone",
+      "no strong emotion",
+      "steady environment"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "neutral_still",
+    "examples": [
+      { "glyphs": "A⚪😐", "text": "A occurs in an emotionally neutral environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.warm",
+    "glyph": "🔥😊",
+    "category": "emotion_context",
+    "primary": "warm emotional field",
+    "synomic": [
+      "comforting",
+      "inviting",
+      "emotionally open",
+      "soft warmth"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "warm_field_glow",
+    "examples": [
+      { "glyphs": "A🔥😊", "text": "A occurs in a warm, emotionally inviting environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.cold",
+    "glyph": "❄️😐",
+    "category": "emotion_context",
+    "primary": "cold emotional field",
+    "synomic": [
+      "distant",
+      "unwelcoming",
+      "emotionally muted",
+      "detached tone"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "cold_field_fade",
+    "examples": [
+      { "glyphs": "A❄️😐", "text": "A occurs in a cold or emotionally distant environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.supportive",
+    "glyph": "🤲💛",
+    "category": "emotion_context",
+    "primary": "supportive atmosphere",
+    "synomic": [
+      "encouraging",
+      "uplifting",
+      "emotionally safe",
+      "nurturing tone"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "supportive_glow",
+    "examples": [
+      { "glyphs": "A🤲💛", "text": "A occurs in a supportive emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.hostile",
+    "glyph": "💢🌫️",
+    "category": "emotion_context",
+    "primary": "hostile atmosphere",
+    "synomic": [
+      "aggressive tone",
+      "emotionally unsafe",
+      "sharp mood",
+      "conflict-charged"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "hostile_flash",
+    "examples": [
+      { "glyphs": "A💢🌫️", "text": "A occurs in a hostile emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.hopeful",
+    "glyph": "🌅✨",
+    "category": "emotion_context",
+    "primary": "hopeful atmosphere",
+    "synomic": [
+      "uplifted expectation",
+      "positive anticipation",
+      "emotional brightness",
+      "renewal tone"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "hope_rise",
+    "examples": [
+      { "glyphs": "A🌅✨", "text": "A occurs in a hopeful, forward-looking environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.heavy",
+    "glyph": "🌧️😞",
+    "category": "emotion_context",
+    "primary": "heavy emotional field",
+    "synomic": [
+      "weighed down",
+      "emotionally dense",
+      "burdened tone",
+      "somber heaviness"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "heavy_drift",
+    "examples": [
+      { "glyphs": "A🌧️😞", "text": "A occurs in a heavy, emotionally burdened environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.excited",
+    "glyph": "⚡😄",
+    "category": "emotion_context",
+    "primary": "excited atmosphere",
+    "synomic": [
+      "energetic",
+      "charged with anticipation",
+      "emotionally lively",
+      "high vibration"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "excite_pulse",
+    "examples": [
+      { "glyphs": "A⚡😄", "text": "A occurs in an excited, high-energy environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.field.unsettling",
+    "glyph": "🌀😨",
+    "category": "emotion_context",
+    "primary": "unsettling atmosphere",
+    "synomic": [
+      "uneasy",
+      "emotionally unstable",
+      "disturbing tone",
+      "subtle fear"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "unsettle_wave",
+    "examples": [
+      { "glyphs": "A🌀😨", "text": "A occurs in an unsettling or uneasy environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.unified",
+    "glyph": "🤝💛",
+    "category": "emotion_context",
+    "primary": "unified mood",
+    "synomic": [
+      "togetherness",
+      "shared harmony",
+      "collective alignment",
+      "group cohesion"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "unity_pulse",
+    "examples": [
+      { "glyphs": "A🤝💛", "text": "A occurs in a unified, harmonious group mood." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.divided",
+    "glyph": "↔️💢",
+    "category": "emotion_context",
+    "primary": "divided mood",
+    "synomic": [
+      "split emotions",
+      "conflicting group feelings",
+      "polarized atmosphere",
+      "emotional fragmentation"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "divide_flash",
+    "examples": [
+      { "glyphs": "A↔️💢", "text": "A occurs in a divided or polarized emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.celebratory",
+    "glyph": "🎉😄",
+    "category": "emotion_context",
+    "primary": "celebratory mood",
+    "synomic": [
+      "festive",
+      "collective joy",
+      "shared excitement",
+      "group uplift"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "celebrate_spark",
+    "examples": [
+      { "glyphs": "A🎉😄", "text": "A occurs in a celebratory group atmosphere." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.anxious",
+    "glyph": "😰🌀",
+    "category": "emotion_context",
+    "primary": "collective anxiety",
+    "synomic": [
+      "shared worry",
+      "group tension",
+      "collective unease",
+      "ambient fear"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "anxiety_wave",
+    "examples": [
+      { "glyphs": "A😰🌀", "text": "A occurs in a collectively anxious environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.mournful",
+    "glyph": "🕯️😢",
+    "category": "emotion_context",
+    "primary": "mournful atmosphere",
+    "synomic": [
+      "shared grief",
+      "collective sadness",
+      "somber unity",
+      "group mourning"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "mourn_flicker",
+    "examples": [
+      { "glyphs": "A🕯️😢", "text": "A occurs in a mournful, grieving group mood." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.anticipatory",
+    "glyph": "⏳😯",
+    "category": "emotion_context",
+    "primary": "anticipatory mood",
+    "synomic": [
+      "shared expectation",
+      "collective waiting",
+      "group suspense",
+      "charged anticipation"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "anticipation_pulse",
+    "examples": [
+      { "glyphs": "A⏳😯", "text": "A occurs in a group atmosphere of anticipation." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.confused",
+    "glyph": "❓😕",
+    "category": "emotion_context",
+    "primary": "collective confusion",
+    "synomic": [
+      "shared uncertainty",
+      "group disorientation",
+      "mixed signals",
+      "emotional ambiguity"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "confusion_swirl",
+    "examples": [
+      { "glyphs": "A❓😕", "text": "A occurs in a collectively confused environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.collective.resolute",
+    "glyph": "💪🔥",
+    "category": "emotion_context",
+    "primary": "resolute group mood",
+    "synomic": [
+      "determined",
+      "collective resolve",
+      "shared purpose",
+      "unified strength"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "resolve_burn",
+    "examples": [
+      { "glyphs": "A💪🔥", "text": "A occurs in a resolute, determined group atmosphere." }
+    ]
+  },
+  {
+    "id": "context.emotion.symbolic.rebirth",
+    "glyph": "🌅🕊️",
+    "category": "emotion_context",
+    "primary": "rebirth atmosphere",
+    "synomic": [
+      "renewal tone",
+      "fresh emotional beginning",
+      "emergence from darkness",
+      "hopeful transformation"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "rebirth_glow",
+    "examples": [
+      { "glyphs": "A🌅🕊️", "text": "A occurs in an atmosphere of emotional rebirth." }
+    ]
+  },
+  {
+    "id": "context.emotion.symbolic.fate",
+    "glyph": "🧿✨",
+    "category": "emotion_context",
+    "primary": "fateful atmosphere",
+    "synomic": [
+      "destined feeling",
+      "inevitable tone",
+      "emotionally charged significance",
+      "moment of destiny"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "fate_pulse",
+    "examples": [
+      { "glyphs": "A🧿✨", "text": "A occurs in a fateful or destined emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.symbolic.shadow",
+    "glyph": "🌑🫥",
+    "category": "emotion_context",
+    "primary": "shadow atmosphere",
+    "synomic": [
+      "hidden emotions",
+      "unspoken tension",
+      "emotional obscurity",
+      "suppressed truth"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "shadow_fade",
+    "examples": [
+      { "glyphs": "A🌑🫥", "text": "A occurs in a shadowed emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.archetype.heroic",
+    "glyph": "🔥🛡️",
+    "category": "emotion_context",
+    "primary": "heroic emotional field",
+    "synomic": [
+      "courageous tone",
+      "rising strength",
+      "emotional bravery",
+      "noble resolve"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "heroic_flare",
+    "examples": [
+      { "glyphs": "A🔥🛡️", "text": "A occurs in a heroic emotional atmosphere." }
+    ]
+  },
+  {
+    "id": "context.emotion.archetype.tragic",
+    "glyph": "🎭💔",
+    "category": "emotion_context",
+    "primary": "tragic emotional field",
+    "synomic": [
+      "inevitable sorrow",
+      "emotional downfall",
+      "heavy narrative sadness",
+      "fated grief"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "tragic_fall",
+    "examples": [
+      { "glyphs": "A🎭💔", "text": "A occurs in a tragic emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.archetype.mystic",
+    "glyph": "🔮🌫️",
+    "category": "emotion_context",
+    "primary": "mystic emotional field",
+    "synomic": [
+      "otherworldly tone",
+      "enigmatic emotion",
+      "spiritual atmosphere",
+      "mysterious affect"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "mystic_glow",
+    "examples": [
+      { "glyphs": "A🔮🌫️", "text": "A occurs in a mystic or spiritually charged emotional environment." }
+    ]
+  },
+  {
+    "id": "context.emotion.mythic.creation",
+    "glyph": "🌌✨",
+    "category": "emotion_context",
+    "primary": "creation emotional field",
+    "synomic": [
+      "beginning energy",
+      "emotional genesis",
+      "first spark feeling",
+      "origin atmosphere"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "creation_spark",
+    "examples": [
+      { "glyphs": "A🌌✨", "text": "A occurs in an emotional field of creation or genesis." }
+    ]
+  },
+  {
+    "id": "context.emotion.mythic.destruction",
+    "glyph": "🔥🌑",
+    "category": "emotion_context",
+    "primary": "destruction emotional field",
+    "synomic": [
+      "ending tone",
+      "emotional collapse",
+      "dissolution atmosphere",
+      "finality"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "destruction_fade",
+    "examples": [
+      { "glyphs": "A🔥🌑", "text": "A occurs in an emotional field of destruction or dissolution." }
+    ]
+  },
+  {
+    "id": "context.emotion.mythic.cycle",
+    "glyph": "🔄🌕🌑",
+    "category": "emotion_context",
+    "primary": "cyclical emotional field",
+    "synomic": [
+      "recurring emotional pattern",
+      "rise and fall tone",
+      "looped affect",
+      "emotional recurrence"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "cycle_spin",
+    "examples": [
+      { "glyphs": "A🔄🌕🌑", "text": "A occurs within a cyclical emotional atmosphere." }
+    ]
+  },
+  {
+    "id": "context.emotion.meta.stillness",
+    "glyph": "🕊️🌫️",
+    "category": "emotion_context",
+    "primary": "emotional stillness",
+    "synomic": [
+      "quiet mind-field",
+      "emotionless calm",
+      "zero-disturbance state",
+      "deep inner silence"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "stillness_fade",
+    "examples": [
+      { "glyphs": "A🕊️🌫️", "text": "A occurs in a field of emotional stillness." }
+    ]
+  },
+  {
+    "id": "context.emotion.meta.void",
+    "glyph": "0️⃣🌑",
+    "category": "emotion_context",
+    "primary": "emotional void",
+    "synomic": [
+      "absence of affect",
+      "null emotional field",
+      "emptiness",
+      "pre-emotion state"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "void_drift",
+    "examples": [
+      { "glyphs": "A0️⃣🌑", "text": "A occurs in an emotional void or null field." }
+    ]
+  },
+  {
+    "id": "context.emotion.existential.meaningful",
+    "glyph": "✨🧿",
+    "category": "emotion_context",
+    "primary": "meaningful atmosphere",
+    "synomic": [
+      "emotionally significant",
+      "purpose-charged",
+      "deep resonance",
+      "felt importance"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "meaning_glow",
+    "examples": [
+      { "glyphs": "A✨🧿", "text": "A occurs in a field of emotional meaning." }
+    ]
+  },
+  {
+    "id": "context.emotion.existential.empty",
+    "glyph": "🌫️🕳️",
+    "category": "emotion_context",
+    "primary": "existential emptiness",
+    "synomic": [
+      "hollow tone",
+      "lack of emotional grounding",
+      "disconnected field",
+      "meaning-drained atmosphere"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "emptiness_fade",
+    "examples": [
+      { "glyphs": "A🌫️🕳️", "text": "A occurs in an atmosphere of existential emptiness." }
+    ]
+  },
+  {
+    "id": "context.emotion.ultimate.unity",
+    "glyph": "1️⃣💫",
+    "category": "emotion_context",
+    "primary": "emotional unity",
+    "synomic": [
+      "oneness of feeling",
+      "harmonic emotional field",
+      "complete integration",
+      "all-emotions-as-one"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "unity_glow",
+    "examples": [
+      { "glyphs": "A1️⃣💫", "text": "A occurs in a unified emotional field." }
+    ]
+  },
+  {
+    "id": "context.emotion.ultimate.dual_balance",
+    "glyph": "☯️💞",
+    "category": "emotion_context",
+    "primary": "balanced emotional duality",
+    "synomic": [
+      "harmonized opposites",
+      "emotional equilibrium",
+      "paired affect in balance",
+      "dynamic emotional symmetry"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "dual_balance_pulse",
+    "examples": [
+      { "glyphs": "A☯️💞", "text": "A occurs in a field of balanced emotional duality." }
+    ]
+  },
+  {
+    "id": "context.emotion.ultimate.transcendent",
+    "glyph": "🌟♾️",
+    "category": "emotion_context",
+    "primary": "transcendent emotional field",
+    "synomic": [
+      "beyond emotion",
+      "elevated affect",
+      "infinite emotional clarity",
+      "meta-emotional state"
+    ],
+    "roles": ["context", "emotion"],
+    "animation": "transcendence_glow",
+    "examples": [
+      { "glyphs": "A🌟♾️", "text": "A occurs in a transcendent emotional environment." }
+    ]
+  }
+]
+

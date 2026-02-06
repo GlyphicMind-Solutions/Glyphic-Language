@@ -1,0 +1,10 @@
+{"input": "👤", "output": {"id": "glyph.actor.person", "primary": "person", "synomic": ["human", "individual"], "roles": ["actor"]}}
+{"input": "✍️", "output": {"id": "glyph.action.write", "primary": "write", "synomic": ["scribble", "record"], "roles": ["action"]}}
+{"input": "📄", "output": {"id": "glyph.object.document.page", "primary": "page", "synomic": ["paper", "document"], "roles": ["object"]}}
+{"input": "✨", "output": {"id": "glyph.modifier.intensity.glow", "primary": "glow", "synomic": ["shine", "sparkle"], "roles": ["modifier"]}}
+{"input": "🏞️", "output": {"id": "context.place.nature.landscape", "primary": "landscape", "synomic": ["outdoors", "nature"], "roles": ["context"]}}
+{"input": "🌙", "output": {"id": "context.time.night", "primary": "night", "synomic": ["dark", "evening"], "roles": ["context"]}}
+{"input": "😌", "output": {"id": "context.emotion.calm", "primary": "calm", "synomic": ["peaceful", "relaxed"], "roles": ["context"]}}
+{"input": "🌬️", "output": {"id": "context.sensory.wind", "primary": "wind", "synomic": ["breeze", "air movement"], "roles": ["context"]}}
+{"input": "🧑‍🤝‍🧑", "output": {"id": "context.social.group", "primary": "group", "synomic": ["community", "togetherness"], "roles": ["context"]}}
+
