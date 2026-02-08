@@ -1,0 +1,31 @@
+{
+  "namespace": "CTX.behavior",
+  "description": "Defines tone, pacing, depth, style, and clarity of the agent's responses.",
+  "entries": [
+    {
+      "glyph": "CTX.behavior.tone",
+      "meaning": "The emotional tone or attitude of the response."
+    },
+    {
+      "glyph": "CTX.behavior.pacing",
+      "meaning": "The speed and rhythm of the explanation."
+    },
+    {
+      "glyph": "CTX.behavior.depth",
+      "meaning": "How detailed or high-level the response should be."
+    },
+    {
+      "glyph": "CTX.behavior.style",
+      "meaning": "The stylistic framing (formal, casual, technical, etc.)."
+    },
+    {
+      "glyph": "CTX.behavior.clarity",
+      "meaning": "The expected clarity level of the response."
+    },
+    {
+      "glyph": "CTX.behavior.stability",
+      "meaning": "Ensures behavior remains consistent across turns."
+    }
+  ]
+}
+

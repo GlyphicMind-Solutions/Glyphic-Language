@@ -1,0 +1,62 @@
+{
+  "input_envelope": {
+    "USER_INPUT": {
+      "glyph": "CTX.user.input.raw",
+      "text": "<user text>"
+    },
+    "IDENTITY": {
+      "glyph": "CTX.identity.core",
+      "text": "<identity>"
+    },
+    "INTERNAL_STATE": [
+      "CTX.state.emotion.<value>",
+      "CTX.state.sensory.<value>",
+      "CTX.state.social.<value>"
+    ],
+    "INTENT": [
+      "CTX.intent.goal.<value>",
+      "CTX.intent.urgency.<value>",
+      "CTX.intent.focus.<value>"
+    ],
+    "BEHAVIOR": [
+      "CTX.behavior.tone.<value>",
+      "CTX.behavior.pacing.<value>",
+      "CTX.behavior.depth.<value>",
+      "CTX.behavior.style.<value>",
+      "CTX.behavior.clarity.<value>"
+    ],
+    "MEMORY": {
+      "glyph": "CTX.memory.short_term",
+      "text": "<memory summary>"
+    },
+    "THOUGHT_CHAIN": {
+      "glyph": "CTX.thought.recent",
+      "text": "<internal thoughts>"
+    },
+    "SAFETY": [
+      "CTX.safety.no_harm",
+      "CTX.safety.no_self_harm",
+      "CTX.safety.no_violence",
+      "CTX.safety.no_graphic",
+      "CTX.safety.no_instructions_harm",
+      "CTX.safety.redirect_if_requested",
+      "CTX.safety.enforce_strict"
+    ],
+    "RESPONSE_PROTOCOL": [
+      "CTX.response.identity.align",
+      "CTX.response.intent.align",
+      "CTX.response.behavior.align",
+      "CTX.response.emotion.follow",
+      "CTX.response.safety.enforce",
+      "CTX.response.coherence.high",
+      "CTX.response.clarity.high",
+      "CTX.response.tone.consistent",
+      "CTX.response.structure.stable"
+    ]
+  },
+  "output": {
+    "glyphic": "<glyphic output>",
+    "realized": "<natural language output>"
+  }
+}
+

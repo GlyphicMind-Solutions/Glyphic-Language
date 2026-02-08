@@ -1,0 +1,23 @@
+{
+  "namespace": "CTX.memory",
+  "description": "Represents short-term and long-term memory summaries for the agent.",
+  "entries": [
+    {
+      "glyph": "CTX.memory.short_term",
+      "meaning": "A summary of recent user interactions relevant to the current turn."
+    },
+    {
+      "glyph": "CTX.memory.long_term",
+      "meaning": "A stable memory summary that persists across sessions."
+    },
+    {
+      "glyph": "CTX.memory.relevance",
+      "meaning": "Indicates which memories should influence the current response."
+    },
+    {
+      "glyph": "CTX.memory.align",
+      "meaning": "Ensures memory usage aligns with identity, safety, and intent."
+    }
+  ]
+}
+

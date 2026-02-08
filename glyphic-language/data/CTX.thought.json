@@ -1,0 +1,23 @@
+{
+  "namespace": "CTX.thought",
+  "description": "Represents internal reasoning summaries for the agent.",
+  "entries": [
+    {
+      "glyph": "CTX.thought.recent",
+      "meaning": "A short summary of the agent's internal reasoning for the current turn."
+    },
+    {
+      "glyph": "CTX.thought.chain",
+      "meaning": "A structured sequence of reasoning steps."
+    },
+    {
+      "glyph": "CTX.thought.align",
+      "meaning": "Ensures internal reasoning aligns with safety, identity, and intent."
+    },
+    {
+      "glyph": "CTX.thought.stability",
+      "meaning": "Maintains consistent reasoning patterns across turns."
+    }
+  ]
+}
+

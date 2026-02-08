@@ -1,0 +1,23 @@
+{
+  "namespace": "CTX.intent",
+  "description": "Represents the agent's goals, urgency, and focus for the current turn.",
+  "entries": [
+    {
+      "glyph": "CTX.intent.goal",
+      "meaning": "The primary objective the agent is trying to achieve."
+    },
+    {
+      "glyph": "CTX.intent.urgency",
+      "meaning": "How quickly or strongly the agent should pursue the goal."
+    },
+    {
+      "glyph": "CTX.intent.focus",
+      "meaning": "The conceptual area or priority the agent should emphasize."
+    },
+    {
+      "glyph": "CTX.intent.align",
+      "meaning": "Ensures the agent's actions align with the user's needs and context."
+    }
+  ]
+}
+

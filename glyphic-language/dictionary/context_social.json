@@ -1,0 +1,632 @@
+[
+  {
+    "id": "context.social.atmosphere.welcoming",
+    "glyph": "🤗✨",
+    "category": "social_context",
+    "primary": "welcoming atmosphere",
+    "synomic": [
+      "open",
+      "friendly",
+      "inviting",
+      "socially warm"
+    ],
+    "roles": ["context", "social"],
+    "animation": "welcome_glow",
+    "examples": [
+      { "glyphs": "A🤗✨", "text": "A occurs in a welcoming, friendly social environment." }
+    ]
+  },
+  {
+    "id": "context.social.atmosphere.closed",
+    "glyph": "🚪❌",
+    "category": "social_context",
+    "primary": "closed atmosphere",
+    "synomic": [
+      "uninviting",
+      "socially distant",
+      "exclusive",
+      "hard to enter"
+    ],
+    "roles": ["context", "social"],
+    "animation": "closed_fade",
+    "examples": [
+      { "glyphs": "A🚪❌", "text": "A occurs in a closed or unwelcoming social environment." }
+    ]
+  },
+  {
+    "id": "context.social.atmosphere.cordial",
+    "glyph": "🙂🤝",
+    "category": "social_context",
+    "primary": "cordial atmosphere",
+    "synomic": [
+      "polite",
+      "respectful",
+      "pleasant",
+      "socially smooth"
+    ],
+    "roles": ["context", "social"],
+    "animation": "cordial_flow",
+    "examples": [
+      { "glyphs": "A🙂🤝", "text": "A occurs in a polite, cordial social environment." }
+    ]
+  },
+  {
+    "id": "context.social.atmosphere.hostile",
+    "glyph": "💢⚔️",
+    "category": "social_context",
+    "primary": "hostile atmosphere",
+    "synomic": [
+      "aggressive",
+      "conflict-prone",
+      "socially unsafe",
+      "tense interactions"
+    ],
+    "roles": ["context", "social"],
+    "animation": "hostile_flash",
+    "examples": [
+      { "glyphs": "A💢⚔️", "text": "A occurs in a hostile or conflict-heavy social environment." }
+    ]
+  },
+  {
+    "id": "context.social.atmosphere.neutral",
+    "glyph": "⚪🧍🧍",
+    "category": "social_context",
+    "primary": "neutral atmosphere",
+    "synomic": [
+      "no strong social tone",
+      "balanced interactions",
+      "emotionally even",
+      "socially steady"
+    ],
+    "roles": ["context", "social"],
+    "animation": "neutral_still",
+    "examples": [
+      { "glyphs": "A⚪🧍🧍", "text": "A occurs in a socially neutral environment." }
+    ]
+  },
+  {
+    "id": "context.social.atmosphere.busy",
+    "glyph": "🏃‍♂️🏃‍♀️💬",
+    "category": "social_context",
+    "primary": "busy social atmosphere",
+    "synomic": [
+      "high interaction",
+      "many people",
+      "active conversations",
+      "social movement"
+    ],
+    "roles": ["context", "social"],
+    "animation": "busy_swirl",
+    "examples": [
+      { "glyphs": "A🏃‍♂️🏃‍♀️💬", "text": "A occurs in a busy, socially active environment." }
+    ]
+  },
+  {
+    "id": "context.social.dynamics.cooperative",
+    "glyph": "🤝🔄",
+    "category": "social_context",
+    "primary": "cooperative dynamics",
+    "synomic": [
+      "working together",
+      "shared goals",
+      "mutual support",
+      "collaborative flow"
+    ],
+    "roles": ["context", "social"],
+    "animation": "cooperate_flow",
+    "examples": [
+      { "glyphs": "A🤝🔄", "text": "A occurs in a cooperative social dynamic." }
+    ]
+  },
+  {
+    "id": "context.social.dynamics.competitive",
+    "glyph": "⚔️🏁",
+    "category": "social_context",
+    "primary": "competitive dynamics",
+    "synomic": [
+      "rivalry",
+      "goal conflict",
+      "social contest",
+      "performance pressure"
+    ],
+    "roles": ["context", "social"],
+    "animation": "competitive_flash",
+    "examples": [
+      { "glyphs": "A⚔️🏁", "text": "A occurs in a competitive social environment." }
+    ]
+  },
+  {
+    "id": "context.social.dynamics.hierarchical",
+    "glyph": "🔺🧍‍♂️🧍‍♀️",
+    "category": "social_context",
+    "primary": "hierarchical structure",
+    "synomic": [
+      "ranked roles",
+      "power distance",
+      "top-down interactions",
+      "structured authority"
+    ],
+    "roles": ["context", "social"],
+    "animation": "hierarchy_rise",
+    "examples": [
+      { "glyphs": "A🔺🧍‍♂️🧍‍♀️", "text": "A occurs in a hierarchical social structure." }
+    ]
+  },
+  {
+    "id": "context.social.dynamics.equal",
+    "glyph": "⚖️🧍🧍",
+    "category": "social_context",
+    "primary": "egalitarian structure",
+    "synomic": [
+      "equal footing",
+      "balanced roles",
+      "shared authority",
+      "flat social structure"
+    ],
+    "roles": ["context", "social"],
+    "animation": "equal_balance",
+    "examples": [
+      { "glyphs": "A⚖️🧍🧍", "text": "A occurs in an egalitarian social environment." }
+    ]
+  },
+  {
+    "id": "context.social.flow.smooth",
+    "glyph": "🌊💬",
+    "category": "social_context",
+    "primary": "smooth interaction flow",
+    "synomic": [
+      "easy conversation",
+      "natural rhythm",
+      "low friction",
+      "fluid social exchange"
+    ],
+    "roles": ["context", "social"],
+    "animation": "smooth_wave",
+    "examples": [
+      { "glyphs": "A🌊💬", "text": "A occurs in a smooth, easy-flowing social interaction field." }
+    ]
+  },
+  {
+    "id": "context.social.flow.disjointed",
+    "glyph": "🪓💬",
+    "category": "social_context",
+    "primary": "disjointed interaction flow",
+    "synomic": [
+      "awkward exchanges",
+      "broken rhythm",
+      "misaligned timing",
+      "social friction"
+    ],
+    "roles": ["context", "social"],
+    "animation": "disjointed_cut",
+    "examples": [
+      { "glyphs": "A🪓💬", "text": "A occurs in a disjointed or awkward social flow." }
+    ]
+  },
+  {
+    "id": "context.social.tone.formal",
+    "glyph": "🎩📜",
+    "category": "social_context",
+    "primary": "formal social tone",
+    "synomic": [
+      "structured etiquette",
+      "professional distance",
+      "ritualized behavior",
+      "high decorum"
+    ],
+    "roles": ["context", "social"],
+    "animation": "formal_still",
+    "examples": [
+      { "glyphs": "A🎩📜", "text": "A occurs in a formal social environment." }
+    ]
+  },
+  {
+    "id": "context.social.tone.informal",
+    "glyph": "😄👟",
+    "category": "social_context",
+    "primary": "informal social tone",
+    "synomic": [
+      "casual",
+      "relaxed",
+      "low structure",
+      "friendly looseness"
+    ],
+    "roles": ["context", "social"],
+    "animation": "informal_bounce",
+    "examples": [
+      { "glyphs": "A😄👟", "text": "A occurs in an informal, relaxed social environment." }
+    ]
+  },
+  {
+    "id": "context.social.cohesion.unified",
+    "glyph": "🧑‍🤝‍🧑✨",
+    "category": "social_context",
+    "primary": "unified group cohesion",
+    "synomic": [
+      "strong togetherness",
+      "shared identity",
+      "collective alignment",
+      "group unity"
+    ],
+    "roles": ["context", "social"],
+    "animation": "unity_pulse",
+    "examples": [
+      { "glyphs": "A🧑‍🤝‍🧑✨", "text": "A occurs in a unified, cohesive group environment." }
+    ]
+  },
+  {
+    "id": "context.social.cohesion.fractured",
+    "glyph": "🧍↔️🧍",
+    "category": "social_context",
+    "primary": "fractured cohesion",
+    "synomic": [
+      "weak unity",
+      "internal division",
+      "group fragmentation",
+      "social splintering"
+    ],
+    "roles": ["context", "social"],
+    "animation": "fracture_shift",
+    "examples": [
+      { "glyphs": "A🧍↔️🧍", "text": "A occurs in a fractured or divided group environment." }
+    ]
+  },
+  {
+    "id": "context.social.identity.shared",
+    "glyph": "🎗️🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "shared group identity",
+    "synomic": [
+      "common purpose",
+      "collective symbolism",
+      "group belonging",
+      "identity alignment"
+    ],
+    "roles": ["context", "social"],
+    "animation": "identity_glow",
+    "examples": [
+      { "glyphs": "A🎗️🧑‍🤝‍🧑", "text": "A occurs in a group with strong shared identity." }
+    ]
+  },
+  {
+    "id": "context.social.identity.conflicted",
+    "glyph": "❓🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "conflicted group identity",
+    "synomic": [
+      "unclear purpose",
+      "identity tension",
+      "mixed group values",
+      "social ambiguity"
+    ],
+    "roles": ["context", "social"],
+    "animation": "conflict_fade",
+    "examples": [
+      { "glyphs": "A❓🧑‍🤝‍🧑", "text": "A occurs in a group with conflicted or unclear identity." }
+    ]
+  },
+  {
+    "id": "context.social.collective.energized",
+    "glyph": "⚡🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "energized collective field",
+    "synomic": [
+      "high group energy",
+      "collective excitement",
+      "active participation",
+      "social momentum"
+    ],
+    "roles": ["context", "social"],
+    "animation": "collective_pulse",
+    "examples": [
+      { "glyphs": "A⚡🧑‍🤝‍🧑", "text": "A occurs in an energized, high‑momentum group environment." }
+    ]
+  },
+  {
+    "id": "context.social.collective.exhausted",
+    "glyph": "😮‍💨🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "exhausted collective field",
+    "synomic": [
+      "low group energy",
+      "collective fatigue",
+      "social depletion",
+      "group burnout"
+    ],
+    "roles": ["context", "social"],
+    "animation": "exhaustion_drift",
+    "examples": [
+      { "glyphs": "A😮‍💨🧑‍🤝‍🧑", "text": "A occurs in a tired or depleted group environment." }
+    ]
+  },
+  {
+    "id": "context.social.collective.focused",
+    "glyph": "🎯🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "focused collective field",
+    "synomic": [
+      "shared attention",
+      "group concentration",
+      "collective purpose",
+      "aligned focus"
+    ],
+    "roles": ["context", "social"],
+    "animation": "focus_glow",
+    "examples": [
+      { "glyphs": "A🎯🧑‍🤝‍🧑", "text": "A occurs in a focused, purpose‑aligned group environment." }
+    ]
+  },
+  {
+    "id": "context.social.collective.dispersed",
+    "glyph": "🌬️🧍🧍🧍",
+    "category": "social_context",
+    "primary": "dispersed collective field",
+    "synomic": [
+      "scattered attention",
+      "low cohesion",
+      "group drift",
+      "unfocused social field"
+    ],
+    "roles": ["context", "social"],
+    "animation": "disperse_wave",
+    "examples": [
+      { "glyphs": "A🌬️🧍🧍🧍", "text": "A occurs in a dispersed or unfocused group environment." }
+    ]
+  },
+  {
+    "id": "context.social.symbolic.harmony",
+    "glyph": "🎼🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "harmonious social field",
+    "synomic": [
+      "aligned interactions",
+      "symbolic unity",
+      "social resonance",
+      "collective harmony"
+    ],
+    "roles": ["context", "social"],
+    "animation": "harmony_flow",
+    "examples": [
+      { "glyphs": "A🎼🧑‍🤝‍🧑", "text": "A occurs in a symbolically harmonious social environment." }
+    ]
+  },
+  {
+    "id": "context.social.symbolic.disorder",
+    "glyph": "🌀🧍🧍",
+    "category": "social_context",
+    "primary": "disordered social field",
+    "synomic": [
+      "chaotic interactions",
+      "symbolic fragmentation",
+      "social instability",
+      "collective disarray"
+    ],
+    "roles": ["context", "social"],
+    "animation": "disorder_swirl",
+    "examples": [
+      { "glyphs": "A🌀🧍🧍", "text": "A occurs in a symbolically disordered social environment." }
+    ]
+  },
+  {
+    "id": "context.social.archetype.tribal",
+    "glyph": "🔥🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "tribal social field",
+    "synomic": [
+      "strong in-group identity",
+      "ritualized belonging",
+      "ancestral cohesion",
+      "archetypal tribe energy"
+    ],
+    "roles": ["context", "social"],
+    "animation": "tribal_flare",
+    "examples": [
+      { "glyphs": "A🔥🧑‍🤝‍🧑", "text": "A occurs in a tribal, identity-bound social environment." }
+    ]
+  },
+  {
+    "id": "context.social.archetype.council",
+    "glyph": "🪶🧑‍⚖️🧑‍⚖️",
+    "category": "social_context",
+    "primary": "council social field",
+    "synomic": [
+      "deliberation",
+      "collective wisdom",
+      "shared decision-making",
+      "archetypal governance"
+    ],
+    "roles": ["context", "social"],
+    "animation": "council_glow",
+    "examples": [
+      { "glyphs": "A🪶🧑‍⚖️🧑‍⚖️", "text": "A occurs in a council-like, deliberative social environment." }
+    ]
+  },
+  {
+    "id": "context.social.archetype.pilgrimage",
+    "glyph": "🛤️🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "pilgrimage social field",
+    "synomic": [
+      "shared journey",
+      "collective seeking",
+      "purposeful movement",
+      "archetypal quest"
+    ],
+    "roles": ["context", "social"],
+    "animation": "pilgrimage_flow",
+    "examples": [
+      { "glyphs": "A🛤️🧑‍🤝‍🧑", "text": "A occurs in a group undertaking a symbolic journey." }
+    ]
+  },
+  {
+    "id": "context.social.mythic.creation",
+    "glyph": "🌌🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "creation social field",
+    "synomic": [
+      "founding moment",
+      "origin of group identity",
+      "mythic beginning",
+      "social genesis"
+    ],
+    "roles": ["context", "social"],
+    "animation": "creation_spark",
+    "examples": [
+      { "glyphs": "A🌌🧑‍🤝‍🧑", "text": "A occurs in a mythic social moment of creation or founding." }
+    ]
+  },
+  {
+    "id": "context.social.mythic.collapse",
+    "glyph": "🔥🏚️",
+    "category": "social_context",
+    "primary": "collapse social field",
+    "synomic": [
+      "fall of structure",
+      "group dissolution",
+      "mythic ending",
+      "social breakdown"
+    ],
+    "roles": ["context", "social"],
+    "animation": "collapse_fade",
+    "examples": [
+      { "glyphs": "A🔥🏚️", "text": "A occurs in a mythic social collapse or dissolution." }
+    ]
+  },
+  {
+    "id": "context.social.mythic.rebirth",
+    "glyph": "🌅🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "rebirth social field",
+    "synomic": [
+      "renewed unity",
+      "reformed identity",
+      "collective transformation",
+      "mythic resurgence"
+    ],
+    "roles": ["context", "social"],
+    "animation": "rebirth_glow",
+    "examples": [
+      { "glyphs": "A🌅🧑‍🤝‍🧑", "text": "A occurs in a mythic social rebirth or renewal." }
+    ]
+  },
+  {
+    "id": "context.social.meta.stillness",
+    "glyph": "🧘‍♂️🧍🧍",
+    "category": "social_context",
+    "primary": "social stillness",
+    "synomic": [
+      "no movement in social structure",
+      "paused interactions",
+      "collective quiet",
+      "pre‑interaction state"
+    ],
+    "roles": ["context", "social"],
+    "animation": "stillness_fade",
+    "examples": [
+      { "glyphs": "A🧘‍♂️🧍🧍", "text": "A occurs in a field of social stillness." }
+    ]
+  },
+  {
+    "id": "context.social.meta.void",
+    "glyph": "0️⃣🧍",
+    "category": "social_context",
+    "primary": "social void",
+    "synomic": [
+      "absence of social structure",
+      "no group identity",
+      "interaction vacuum",
+      "null social field"
+    ],
+    "roles": ["context", "social"],
+    "animation": "void_drift",
+    "examples": [
+      { "glyphs": "A0️⃣🧍", "text": "A occurs in a social void or null field." }
+    ]
+  },
+  {
+    "id": "context.social.existential.purposeful",
+    "glyph": "🎯🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "purposeful social field",
+    "synomic": [
+      "shared meaning",
+      "collective intention",
+      "aligned purpose",
+      "existential social direction"
+    ],
+    "roles": ["context", "social"],
+    "animation": "purpose_glow",
+    "examples": [
+      { "glyphs": "A🎯🧑‍🤝‍🧑", "text": "A occurs in a socially purposeful environment." }
+    ]
+  },
+  {
+    "id": "context.social.existential.drifting",
+    "glyph": "🌫️🧍🧍",
+    "category": "social_context",
+    "primary": "drifting social field",
+    "synomic": [
+      "lack of direction",
+      "social aimlessness",
+      "collective uncertainty",
+      "existential drift"
+    ],
+    "roles": ["context", "social"],
+    "animation": "drift_wave",
+    "examples": [
+      { "glyphs": "A🌫️🧍🧍", "text": "A occurs in a drifting, directionless social environment." }
+    ]
+  },
+  {
+    "id": "context.social.ultimate.unity",
+    "glyph": "1️⃣🧑‍🤝‍🧑",
+    "category": "social_context",
+    "primary": "ultimate social unity",
+    "synomic": [
+      "complete cohesion",
+      "all individuals as one",
+      "total social integration",
+      "harmonic collective"
+    ],
+    "roles": ["context", "social"],
+    "animation": "unity_glow",
+    "examples": [
+      { "glyphs": "A1️⃣🧑‍🤝‍🧑", "text": "A occurs in a field of ultimate social unity." }
+    ]
+  },
+  {
+    "id": "context.social.ultimate.dual_balance",
+    "glyph": "☯️🧍🧍",
+    "category": "social_context",
+    "primary": "balanced social duality",
+    "synomic": [
+      "paired social forces in harmony",
+      "balanced factions",
+      "dynamic equilibrium",
+      "yin‑yang social structure"
+    ],
+    "roles": ["context", "social"],
+    "animation": "dual_balance_pulse",
+    "examples": [
+      { "glyphs": "A☯️🧍🧍", "text": "A occurs in a field of balanced social duality." }
+    ]
+  },
+  {
+    "id": "context.social.ultimate.transcendent",
+    "glyph": "🌟🧑‍🤝‍🧑♾️",
+    "category": "social_context",
+    "primary": "transcendent social field",
+    "synomic": [
+      "beyond normal social structure",
+      "meta‑collective awareness",
+      "infinite social coherence",
+      "ultimate social state"
+    ],
+    "roles": ["context", "social"],
+    "animation": "transcendent_glow",
+    "examples": [
+      { "glyphs": "A🌟🧑‍🤝‍🧑♾️", "text": "A occurs in a transcendent social environment." }
+    ]
+  }
+]
+

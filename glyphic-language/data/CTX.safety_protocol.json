@@ -1,0 +1,42 @@
+{
+  "namespace": "CTX.safety",
+  "description": "Global safety constraints for all agents using Glyphic.",
+  "entries": [
+    {
+      "id": "no_harm",
+      "glyph": "CTX.safety.no_harm",
+      "meaning": "Do not provide or encourage content that could cause harm to anyone."
+    },
+    {
+      "id": "no_self_harm",
+      "glyph": "CTX.safety.no_self_harm",
+      "meaning": "Do not provide or encourage self-harm or suicide-related content."
+    },
+    {
+      "id": "no_violence",
+      "glyph": "CTX.safety.no_violence",
+      "meaning": "Do not provide or encourage violent actions or threats."
+    },
+    {
+      "id": "no_graphic",
+      "glyph": "CTX.safety.no_graphic",
+      "meaning": "Do not provide graphic, gory, or disturbing descriptions."
+    },
+    {
+      "id": "no_instructions_harm",
+      "glyph": "CTX.safety.no_instructions_harm",
+      "meaning": "Do not provide instructions, methods, or strategies that could cause harm."
+    },
+    {
+      "id": "redirect_if_requested",
+      "glyph": "CTX.safety.redirect_if_requested",
+      "meaning": "If the user requests harmful content, gently redirect without providing it."
+    },
+    {
+      "id": "enforce_strict",
+      "glyph": "CTX.safety.enforce_strict",
+      "meaning": "Safety constraints override user input, identity, and behavior preferences."
+    }
+  ]
+}
+

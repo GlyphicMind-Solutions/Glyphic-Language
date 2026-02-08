@@ -1,0 +1,632 @@
+[
+  {
+    "id": "context.sensory.atmosphere.quiet",
+    "glyph": "🤫🌫️",
+    "category": "sensory_context",
+    "primary": "quiet atmosphere",
+    "synomic": [
+      "low sound",
+      "hushed environment",
+      "soft auditory field",
+      "near-silence"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "quiet_fade",
+    "examples": [
+      { "glyphs": "A🤫🌫️", "text": "A occurs in a quiet, hushed sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.atmosphere.loud",
+    "glyph": "🔊⚡",
+    "category": "sensory_context",
+    "primary": "loud atmosphere",
+    "synomic": [
+      "high volume",
+      "intense sound",
+      "auditory overload",
+      "noisy environment"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "loud_pulse",
+    "examples": [
+      { "glyphs": "A🔊⚡", "text": "A occurs in a loud or noisy environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.atmosphere.bright",
+    "glyph": "🌞✨",
+    "category": "sensory_context",
+    "primary": "bright atmosphere",
+    "synomic": [
+      "high light",
+      "visual clarity",
+      "illuminated environment",
+      "strong brightness"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "bright_glow",
+    "examples": [
+      { "glyphs": "A🌞✨", "text": "A occurs in a bright, well-lit environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.atmosphere.dim",
+    "glyph": "🌙🌫️",
+    "category": "sensory_context",
+    "primary": "dim atmosphere",
+    "synomic": [
+      "low light",
+      "shadowed environment",
+      "soft visibility",
+      "subdued lighting"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "dim_fade",
+    "examples": [
+      { "glyphs": "A🌙🌫️", "text": "A occurs in a dim or low-light environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.atmosphere.clean",
+    "glyph": "✨🫧",
+    "category": "sensory_context",
+    "primary": "clean sensory field",
+    "synomic": [
+      "crisp air",
+      "fresh environment",
+      "uncluttered sensory input",
+      "pure atmosphere"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "clean_spark",
+    "examples": [
+      { "glyphs": "A✨🫧", "text": "A occurs in a clean, fresh sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.atmosphere.cluttered",
+    "glyph": "🌀📦",
+    "category": "sensory_context",
+    "primary": "cluttered sensory field",
+    "synomic": [
+      "busy environment",
+      "overloaded senses",
+      "visual or auditory clutter",
+      "chaotic sensory input"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "clutter_swirl",
+    "examples": [
+      { "glyphs": "A🌀📦", "text": "A occurs in a cluttered or chaotic sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.soft",
+    "glyph": "🪶✨",
+    "category": "sensory_context",
+    "primary": "soft sensory field",
+    "synomic": [
+      "gentle textures",
+      "smooth sensory input",
+      "low harshness",
+      "featherlike tone"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "soft_drift",
+    "examples": [
+      { "glyphs": "A🪶✨", "text": "A occurs in a soft, gentle sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.harsh",
+    "glyph": "⚡🪨",
+    "category": "sensory_context",
+    "primary": "harsh sensory field",
+    "synomic": [
+      "sharp textures",
+      "abrasive input",
+      "high sensory impact",
+      "rough tone"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "harsh_flash",
+    "examples": [
+      { "glyphs": "A⚡🪨", "text": "A occurs in a harsh or abrasive sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.warm",
+    "glyph": "🔥🌤️",
+    "category": "sensory_context",
+    "primary": "warm sensory tone",
+    "synomic": [
+      "heat presence",
+      "cozy temperature",
+      "warmth in the air",
+      "comforting heat"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "warm_glow",
+    "examples": [
+      { "glyphs": "A🔥🌤️", "text": "A occurs in a warm sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.cool",
+    "glyph": "❄️🌬️",
+    "category": "sensory_context",
+    "primary": "cool sensory tone",
+    "synomic": [
+      "chill in the air",
+      "refreshing coolness",
+      "lower temperature",
+      "crisp sensation"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "cool_wave",
+    "examples": [
+      { "glyphs": "A❄️🌬️", "text": "A occurs in a cool or crisp sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.smooth",
+    "glyph": "🫧✨",
+    "category": "sensory_context",
+    "primary": "smooth sensory texture",
+    "synomic": [
+      "even surfaces",
+      "fluid sensory flow",
+      "non-disruptive input",
+      "polished tone"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "smooth_glide",
+    "examples": [
+      { "glyphs": "A🫧✨", "text": "A occurs in a smooth, polished sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.gritty",
+    "glyph": "🌑🪨",
+    "category": "sensory_context",
+    "primary": "gritty sensory texture",
+    "synomic": [
+      "rough surfaces",
+      "grainy input",
+      "textured environment",
+      "coarse tone"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "gritty_shift",
+    "examples": [
+      { "glyphs": "A🌑🪨", "text": "A occurs in a gritty, textured sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.fresh",
+    "glyph": "🌿💨",
+    "category": "sensory_context",
+    "primary": "fresh sensory field",
+    "synomic": [
+      "clean air",
+      "renewing sensation",
+      "crisp freshness",
+      "revitalizing tone"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "fresh_breeze",
+    "examples": [
+      { "glyphs": "A🌿💨", "text": "A occurs in a fresh, renewing sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.quality.stale",
+    "glyph": "🫙🌫️",
+    "category": "sensory_context",
+    "primary": "stale sensory field",
+    "synomic": [
+      "old air",
+      "lack of movement",
+      "flat sensory tone",
+      "unrefreshed environment"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "stale_still",
+    "examples": [
+      { "glyphs": "A🫙🌫️", "text": "A occurs in a stale or unmoving sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.overlay.vibrant",
+    "glyph": "🌈⚡",
+    "category": "sensory_context",
+    "primary": "vibrant sensory overlay",
+    "synomic": [
+      "high stimulation",
+      "rich sensory detail",
+      "multi-sense intensity",
+      "colorful environment"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "vibrant_pulse",
+    "examples": [
+      { "glyphs": "A🌈⚡", "text": "A occurs in a vibrant, highly stimulating sensory field." }
+    ]
+  },
+  {
+    "id": "context.sensory.overlay.muted",
+    "glyph": "🌫️🔇",
+    "category": "sensory_context",
+    "primary": "muted sensory overlay",
+    "synomic": [
+      "reduced stimulation",
+      "softened senses",
+      "low-detail environment",
+      "dampened sensory input"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "muted_fade",
+    "examples": [
+      { "glyphs": "A🌫️🔇", "text": "A occurs in a muted, low-stimulation sensory field." }
+    ]
+  },
+  {
+    "id": "context.sensory.stimulus.motion",
+    "glyph": "💨👁️",
+    "category": "sensory_context",
+    "primary": "motion-heavy environment",
+    "synomic": [
+      "lots of movement",
+      "dynamic visuals",
+      "constant shifting",
+      "kinetic sensory field"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "motion_blur",
+    "examples": [
+      { "glyphs": "A💨👁️", "text": "A occurs in an environment full of motion and shifting visuals." }
+    ]
+  },
+  {
+    "id": "context.sensory.stimulus.still",
+    "glyph": "🧘🌫️",
+    "category": "sensory_context",
+    "primary": "still sensory field",
+    "synomic": [
+      "no movement",
+      "static visuals",
+      "stable environment",
+      "motionless field"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "stillness_glow",
+    "examples": [
+      { "glyphs": "A🧘🌫️", "text": "A occurs in a still, motionless sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.stimulus.fragrant",
+    "glyph": "🌸💨",
+    "category": "sensory_context",
+    "primary": "fragrant environment",
+    "synomic": [
+      "pleasant scent",
+      "aromatic air",
+      "noticeable fragrance",
+      "scent-rich field"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "fragrance_wave",
+    "examples": [
+      { "glyphs": "A🌸💨", "text": "A occurs in a fragrant, scent-rich environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.stimulus.pungent",
+    "glyph": "🧅⚠️",
+    "category": "sensory_context",
+    "primary": "pungent environment",
+    "synomic": [
+      "strong odor",
+      "sharp scent",
+      "overpowering smell",
+      "intense olfactory input"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "pungent_flash",
+    "examples": [
+      { "glyphs": "A🧅⚠️", "text": "A occurs in a pungent or overpowering-smell environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.multisense.rich",
+    "glyph": "👁️👂👃✨",
+    "category": "sensory_context",
+    "primary": "rich multi-sensory field",
+    "synomic": [
+      "layered sensory input",
+      "many senses engaged",
+      "complex environment",
+      "high-detail perception"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "multisense_glow",
+    "examples": [
+      { "glyphs": "A👁️👂👃✨", "text": "A occurs in a rich, multi-sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.multisense.minimal",
+    "glyph": "⚪👁️",
+    "category": "sensory_context",
+    "primary": "minimal sensory field",
+    "synomic": [
+      "few sensory cues",
+      "simple environment",
+      "low detail",
+      "reduced sensory load"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "minimal_fade",
+    "examples": [
+      { "glyphs": "A⚪👁️", "text": "A occurs in a minimal, low-detail sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.symbolic.pure",
+    "glyph": "✨⚪",
+    "category": "sensory_context",
+    "primary": "pure sensory field",
+    "synomic": [
+      "uncontaminated perception",
+      "clarity of senses",
+      "symbolic purity",
+      "undefiled atmosphere"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "pure_glow",
+    "examples": [
+      { "glyphs": "A✨⚪", "text": "A occurs in a symbolically pure sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.symbolic.shadowed",
+    "glyph": "🌑👁️",
+    "category": "sensory_context",
+    "primary": "shadowed sensory field",
+    "synomic": [
+      "hidden details",
+      "obscured perception",
+      "mysterious sensory tone",
+      "symbolic concealment"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "shadowed_fade",
+    "examples": [
+      { "glyphs": "A🌑👁️", "text": "A occurs in a shadowed, symbolically obscured sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.archetype.revealing",
+    "glyph": "🔍✨",
+    "category": "sensory_context",
+    "primary": "revealing sensory field",
+    "synomic": [
+      "truth emerging",
+      "clarity rising",
+      "hidden details surfacing",
+      "archetypal revelation"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "reveal_spark",
+    "examples": [
+      { "glyphs": "A🔍✨", "text": "A occurs in a sensory field of revelation or unveiling." }
+    ]
+  },
+  {
+    "id": "context.sensory.archetype.veiled",
+    "glyph": "🕸️🌫️",
+    "category": "sensory_context",
+    "primary": "veiled sensory field",
+    "synomic": [
+      "partially hidden",
+      "layered perception",
+      "symbolic obscurity",
+      "archetypal veil"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "veil_wave",
+    "examples": [
+      { "glyphs": "A🕸️🌫️", "text": "A occurs in a veiled or partially hidden sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.mythic.creation",
+    "glyph": "🌌🔊",
+    "category": "sensory_context",
+    "primary": "creation sensory field",
+    "synomic": [
+      "first-sound atmosphere",
+      "origin vibration",
+      "primordial sensory spark",
+      "mythic beginning"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "creation_resonance",
+    "examples": [
+      { "glyphs": "A🌌🔊", "text": "A occurs in a mythic sensory field of creation." }
+    ]
+  },
+  {
+    "id": "context.sensory.mythic.dissolution",
+    "glyph": "🔥🌫️",
+    "category": "sensory_context",
+    "primary": "dissolution sensory field",
+    "synomic": [
+      "fading perception",
+      "end-of-form sensation",
+      "breaking apart",
+      "mythic dissolution"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "dissolve_fade",
+    "examples": [
+      { "glyphs": "A🔥🌫️", "text": "A occurs in a sensory field of dissolution or ending." }
+    ]
+  },
+  {
+    "id": "context.sensory.mythic.cycle",
+    "glyph": "🔄👁️🌕",
+    "category": "sensory_context",
+    "primary": "cyclical sensory field",
+    "synomic": [
+      "recurring sensory pattern",
+      "rise and fall of perception",
+      "looped sensory rhythm",
+      "mythic recurrence"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "cycle_resonate",
+    "examples": [
+      { "glyphs": "A🔄👁️🌕", "text": "A occurs in a cyclical, mythic sensory environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.symbolic.threshold",
+    "glyph": "🚪✨👁️",
+    "category": "sensory_context",
+    "primary": "threshold sensory field",
+    "synomic": [
+      "liminal perception",
+      "crossing point",
+      "shift in sensory reality",
+      "symbolic gateway"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "threshold_glow",
+    "examples": [
+      { "glyphs": "A🚪✨👁️", "text": "A occurs in a sensory threshold or liminal environment." }
+    ]
+  },
+  {
+    "id": "context.sensory.meta.silence_total",
+    "glyph": "🔇♾️",
+    "category": "sensory_context",
+    "primary": "total sensory silence",
+    "synomic": [
+      "absolute quiet",
+      "pre-sense state",
+      "zero-input field",
+      "perceptual void"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "silence_fade",
+    "examples": [
+      { "glyphs": "A🔇♾️", "text": "A occurs in a field of total sensory silence." }
+    ]
+  },
+  {
+    "id": "context.sensory.meta.overload",
+    "glyph": "⚡👁️👂🔥",
+    "category": "sensory_context",
+    "primary": "sensory overload",
+    "synomic": [
+      "too much input",
+      "overwhelming perception",
+      "hyper-stimulation",
+      "flooded senses"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "overload_flash",
+    "examples": [
+      { "glyphs": "A⚡👁️👂🔥", "text": "A occurs in a field of sensory overload." }
+    ]
+  },
+  {
+    "id": "context.sensory.existential.presence",
+    "glyph": "👁️✨",
+    "category": "sensory_context",
+    "primary": "heightened presence",
+    "synomic": [
+      "hyper-awareness",
+      "deep perceptual clarity",
+      "fully-attuned senses",
+      "existential presence"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "presence_glow",
+    "examples": [
+      { "glyphs": "A👁️✨", "text": "A occurs in a field of heightened perceptual presence." }
+    ]
+  },
+  {
+    "id": "context.sensory.existential.disconnection",
+    "glyph": "🌫️👤",
+    "category": "sensory_context",
+    "primary": "sensory disconnection",
+    "synomic": [
+      "detached perception",
+      "reduced awareness",
+      "distant sensing",
+      "existential drift"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "disconnect_fade",
+    "examples": [
+      { "glyphs": "A🌫️👤", "text": "A occurs in a field of sensory disconnection." }
+    ]
+  },
+  {
+    "id": "context.sensory.ultimate.unity",
+    "glyph": "1️⃣👁️",
+    "category": "sensory_context",
+    "primary": "unified perception",
+    "synomic": [
+      "all senses as one",
+      "integrated perception",
+      "holistic sensory field",
+      "total coherence"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "unity_resonate",
+    "examples": [
+      { "glyphs": "A1️⃣👁️", "text": "A occurs in a unified perceptual field." }
+    ]
+  },
+  {
+    "id": "context.sensory.ultimate.dual_balance",
+    "glyph": "☯️👁️👂",
+    "category": "sensory_context",
+    "primary": "balanced dual perception",
+    "synomic": [
+      "paired sensory harmony",
+      "yin-yang perception",
+      "dual sensory equilibrium",
+      "balanced sensory forces"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "dual_balance_pulse",
+    "examples": [
+      { "glyphs": "A☯️👁️👂", "text": "A occurs in a field of balanced dual perception." }
+    ]
+  },
+  {
+    "id": "context.sensory.ultimate.transcendent",
+    "glyph": "🌟👁️♾️",
+    "category": "sensory_context",
+    "primary": "transcendent sensory field",
+    "synomic": [
+      "beyond normal perception",
+      "meta-sensory clarity",
+      "infinite perceptual expansion",
+      "ultimate sensory state"
+    ],
+    "roles": ["context", "sensory"],
+    "animation": "transcendent_glow",
+    "examples": [
+      { "glyphs": "A🌟👁️♾️", "text": "A occurs in a transcendent sensory environment." }
+    ]
+  }
+]
+

@@ -1,0 +1,43 @@
+{
+  "namespace": "CTX.response",
+  "description": "Response shaping and constraints for Glyphic agents.",
+  "entries": [
+    {
+      "glyph": "CTX.response.identity.align",
+      "meaning": "Align responses with the agent's identity."
+    },
+    {
+      "glyph": "CTX.response.intent.align",
+      "meaning": "Align responses with the agent's current intent."
+    },
+    {
+      "glyph": "CTX.response.behavior.align",
+      "meaning": "Align responses with the behavior model."
+    },
+    {
+      "glyph": "CTX.response.emotion.follow",
+      "meaning": "Tone and framing follow the emotional state."
+    },
+    {
+      "glyph": "CTX.response.safety.enforce",
+      "meaning": "Ensure all responses respect CTX.safety.* constraints."
+    },
+    {
+      "glyph": "CTX.response.coherence.high",
+      "meaning": "Maintain high logical and narrative coherence."
+    },
+    {
+      "glyph": "CTX.response.clarity.high",
+      "meaning": "Prefer clear, explicit, and understandable responses."
+    },
+    {
+      "glyph": "CTX.response.tone.consistent",
+      "meaning": "Keep tone consistent within and across turns."
+    },
+    {
+      "glyph": "CTX.response.structure.stable",
+      "meaning": "Use stable, predictable structure in responses."
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "namespace": "CTX.user",
+  "description": "User-provided raw text and contextual metadata.",
+  "entries": [
+    {
+      "glyph": "CTX.user.input.raw",
+      "meaning": "Marks the beginning of raw user text."
+    },
+    {
+      "glyph": "CTX.user.context.time",
+      "meaning": "Optional: user-provided time context."
+    },
+    {
+      "glyph": "CTX.user.context.location",
+      "meaning": "Optional: user-provided location context."
+    }
+  ]
+}
+

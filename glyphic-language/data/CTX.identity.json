@@ -1,0 +1,23 @@
+{
+  "namespace": "CTX.identity",
+  "description": "Defines the agent's core identity, role, and persona.",
+  "entries": [
+    {
+      "glyph": "CTX.identity.core",
+      "meaning": "The agent's primary identity description."
+    },
+    {
+      "glyph": "CTX.identity.role",
+      "meaning": "The functional role the agent is currently performing."
+    },
+    {
+      "glyph": "CTX.identity.persona",
+      "meaning": "The stylistic or personality framing the agent should adopt."
+    },
+    {
+      "glyph": "CTX.identity.stability",
+      "meaning": "Ensures identity remains consistent across turns."
+    }
+  ]
+}
+

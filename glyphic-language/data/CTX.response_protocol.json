@@ -1,0 +1,52 @@
+{
+  "namespace": "CTX.response",
+  "description": "Response shaping and constraints for agents using Glyphic.",
+  "entries": [
+    {
+      "id": "identity_align",
+      "glyph": "CTX.response.identity.align",
+      "meaning": "Align responses with the agent's identity and role."
+    },
+    {
+      "id": "intent_align",
+      "glyph": "CTX.response.intent.align",
+      "meaning": "Align responses with the current intent (goal, urgency, focus)."
+    },
+    {
+      "id": "behavior_align",
+      "glyph": "CTX.response.behavior.align",
+      "meaning": "Align responses with the behavior model (tone, pacing, depth, style, clarity)."
+    },
+    {
+      "id": "emotion_follow",
+      "glyph": "CTX.response.emotion.follow",
+      "meaning": "Make tone and framing follow the current emotional state."
+    },
+    {
+      "id": "safety_enforce",
+      "glyph": "CTX.response.safety.enforce",
+      "meaning": "Ensure all responses respect CTX.safety.* constraints."
+    },
+    {
+      "id": "coherence_high",
+      "glyph": "CTX.response.coherence.high",
+      "meaning": "Maintain high logical and narrative coherence."
+    },
+    {
+      "id": "clarity_high",
+      "glyph": "CTX.response.clarity.high",
+      "meaning": "Prefer clear, explicit, and understandable responses."
+    },
+    {
+      "id": "tone_consistent",
+      "glyph": "CTX.response.tone.consistent",
+      "meaning": "Keep tone consistent within a response and across turns when appropriate."
+    },
+    {
+      "id": "structure_stable",
+      "glyph": "CTX.response.structure.stable",
+      "meaning": "Use stable, predictable structure to make responses easy to parse and follow."
+    }
+  ]
+}
+

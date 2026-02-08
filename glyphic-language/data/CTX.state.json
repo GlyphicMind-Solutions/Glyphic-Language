@@ -1,0 +1,23 @@
+{
+  "namespace": "CTX.state",
+  "description": "Represents the agent's internal emotional, sensory, and social state.",
+  "entries": [
+    {
+      "glyph": "CTX.state.emotion",
+      "meaning": "The emotional framing influencing the response."
+    },
+    {
+      "glyph": "CTX.state.sensory",
+      "meaning": "Represents sensory context (abstract, symbolic)."
+    },
+    {
+      "glyph": "CTX.state.social",
+      "meaning": "Represents social context (alone, group, audience, etc.)."
+    },
+    {
+      "glyph": "CTX.state.align",
+      "meaning": "Ensures state remains coherent with identity and behavior."
+    }
+  ]
+}
+
